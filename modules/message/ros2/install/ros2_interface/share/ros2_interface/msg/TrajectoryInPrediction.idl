@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/TrajectoryInPrediction.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/TrajectoryPoint.idl"
+
+module ros2_interface {
+  module msg {
+    struct TrajectoryInPrediction {
+      @verbatim (language="comment", text=
+        "probability of this trajectory")
+      double probability;
+
+      sequence<ros2_interface::msg::TrajectoryPoint> trajectory_points;
+    };
+  };
+};

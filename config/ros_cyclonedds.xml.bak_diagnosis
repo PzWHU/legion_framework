@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CycloneDDS 配置文件 (适用于 ROS Galactic / CycloneDDS 0.9.1)
+  与 ros_fastdds.xml 等效，用于多机 UDP 通信
+
+  配置说明：
+  - General/NetworkInterfaceAddress: 绑定特定网络接口 IP
+  - General/MaxMessageSize: 最大 UDP 消息大小 (65500B，与 Fast-DDS 一致)
+  - General/AllowMulticast: 禁用多播，强制单播通信
+  - Discovery/Peers: 配置静态对等节点地址
+  - Discovery/SPDPInterval: SPDP 广播间隔
+  - Internal/LeaseDuration: 租约时长
+  - Tracing: 日志配置
+-->
+<CycloneDDS xmlns="https://cdds.io/config">
+
+  <Domain Id="any">
+
+    <!-- ============================================== -->
+    <!-- 通用配置 -->
+    <!-- ============================================== -->
+    <General>
+      <!--
+        网络接口地址
+        等同于 Fast-DDS 的 interfaceWhiteList
+        必须设置为本机实际 IP
+      -->
+      <NetworkInterfaceAddress>192.168.1.101</NetworkInterfaceAddress>
+
+      <!-- 最大 UDP 消息大小: 65500 字节（与 Fast-DDS 一致） -->
+      <MaxMessageSize>65500 B</MaxMessageSize>
+
+      <!--
+        多播控制:
+        - false: 完全禁用多播，强制单unicast通信（推荐用于多机通信）
+        - spdp: 仅 participant discovery 使用多播，数据使用单播
+        - true:  启用多播（默认）
+      -->
+      <AllowMulticast>false</AllowMulticast>
+    </General>
+
+    <!-- ============================================== -->
+    <!-- 发现协议配置 -->
+    <!-- ============================================== -->
+    <Discovery>
+      <!--
+        SPDP 多播地址
+        默认 239.255.0.1
+        当 AllowMulticast=false 时此设置不生效
+      -->
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>
+
+      <!--
+        SPDP 广播间隔: 5s
+        等同于 Fast-DDS 的 leaseAnnouncement
+      -->
+      <SPDPInterval>5 s</SPDPInterval>
+
+      <!--
+        静态配置对等节点地址
+        等同于 Fast-DDS 的 initial_peers_list
+        添加网络中所有机器的 IP
+      -->
+      <Peers>
+        <Peer address="192.168.1.101"/>
+        <Peer address="192.168.1.102"/>
+        <Peer address="192.168.1.103"/>
+        <Peer address="192.168.1.136"/>
+      </Peers>
+
+      <!--
+        最大参与者索引
+        默认 9
+      -->
+      <MaxAutoParticipantIndex>9</MaxAutoParticipantIndex>
+    </Discovery>
+
+    <!-- ============================================== -->
+    <!-- 内部配置 -->
+    <!-- ============================================== -->
+    <Internal>
+      <!--
+        租约时长: 10s
+        参与者在该时间内未更新则视为离线
+      -->
+      <LeaseDuration>10 s</LeaseDuration>
+    </Internal>
+
+    <!-- ============================================== -->
+    <!-- 日志配置 -->
+    <!-- ============================================== -->
+    <Tracing>
+      <!--
+        日志级别:
+        - none:    禁用日志
+        - severe:  仅致命错误
+        - warning: 警告+错误
+        - info:    信息+警告
+        - config:  配置+信息
+        - fine:    发现日志
+        - finer:   更详细
+        - finest:  最详细
+      -->
+      <Verbosity>warning</Verbosity>
+    </Tracing>
+
+    <!-- ============================================== -->
+    <!-- 兼容性配置 -->
+    <!-- ============================================== -->
+    <Compatibility>
+      <!--
+        标准一致性级别:
+        - lax:     最佳互操作性 (默认)
+        - strict:  严格遵循标准
+        - pedantic: 最严格
+      -->
+      <StandardsConformance>lax</StandardsConformance>
+
+      <!--
+        启用 ManySocketsMode
+        - single: 每个主机一个 socket (默认)
+        - many:   每个参与者一个 socket
+      -->
+      <ManySocketsMode>single</ManySocketsMode>
+    </Compatibility>
+
+  </Domain>
+</CycloneDDS>

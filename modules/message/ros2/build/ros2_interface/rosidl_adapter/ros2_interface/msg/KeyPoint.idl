@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/KeyPoint.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct KeyPoint {
+      @verbatim (language="comment", text=
+        "关键点id")
+      int16 id;
+
+      @verbatim (language="comment", text=
+        "关键点纬度")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "关键点经度")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "关键点海拔")
+      double ele;
+
+      @verbatim (language="comment", text=
+        "关键点航向角（与北方向夹角，顺时针方向为正，单位为°）")
+      double heading;
+
+      @verbatim (language="comment", text=
+        "关键点名称")
+      string name;
+    };
+  };
+};

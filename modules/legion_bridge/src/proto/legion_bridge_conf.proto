@@ -1,0 +1,80 @@
+syntax = "proto2";
+
+package legion.legion_bridge;
+
+import "modules/common/base_message/message.proto";
+import "modules/common/data/vehicle_param/proto/vehicle_param.proto";
+
+message LegionBridgeConf {
+ optional string app_name = 1;
+ optional string description = 2;
+ optional string log_file_path = 3;
+ optional int32 log_level = 4 ;
+ optional bool logging_data_enable = 5;
+ optional bool use_system_timestamp = 6;
+ optional double produce_legion_bridge_command_duration = 7;
+ optional double publish_legion_bridge_command_duration = 8;
+ optional legion.common.Message messages = 10;
+ optional legion.interface.VehicleParam vehicle_param = 11;
+ optional TeleopMode teleop_mode = 12;
+ optional double keboard_duration = 13;
+ optional Settings settings = 14;
+ optional Max_miss_tms max_miss_tms = 15;
+ optional StateMachine state_machine = 16;
+ optional bool check_chassis_and_vehicle = 17;
+ optional bool check_control = 18;
+}
+
+enum TeleopMode{
+    NO = 0;
+    WECHAT = 1;
+    HANDLE = 2;
+    KEYBOARD = 3;
+}
+
+message Settings{
+    optional Stop_Threshold stop_threshold = 1;
+    optional Num_Divisions num_divisions = 2;
+    optional Max max = 3;
+    optional Min min = 4;
+}
+
+message Stop_Threshold{
+    optional double stop_speed_threshold = 1;
+    optional double stop_brake_threshold = 2;
+}
+
+message Num_Divisions{
+    optional double accel_num_divisions = 1;
+    optional double brake_num_divisions = 2;
+    optional double steer_num_divisions = 3;
+    optional double steer_rate_num_divisions = 4;
+    optional double speed_num_divisions = 5;
+}
+
+message Max{
+    optional double max_steering = 1;
+    optional double max_steering_rate = 2;
+    optional double max_accel_value = 3;
+    optional double max_brake_value = 4;
+    optional double max_speed_value = 5;
+}
+
+message Min{
+    optional double min_steering = 1;
+    optional double min_steering_rate = 2;
+    optional double min_accel_value = 3;
+    optional double min_brake_value = 4;
+    optional double min_speed_value = 5;
+}
+
+message Max_miss_tms{
+    optional double max_miss_tms_chassis = 1;
+    optional double max_miss_tms_localization = 2;
+    optional double max_miss_tms_vehicle = 3;
+    optional double max_miss_tms_control = 4;
+}
+
+message StateMachine {
+    optional bool enable_print = 1;
+}

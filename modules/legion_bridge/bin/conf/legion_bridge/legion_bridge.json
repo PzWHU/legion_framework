@@ -1,0 +1,81 @@
+{
+    "app_name": "legion_bridge",
+    "description": "legion_bridge module",
+    "log_file_path": "./log",
+    "log_level": 0,
+    "logging_data_enable": false,
+    "use_system_timestamp": false,
+    "produce_legion_bridge_command_duration": 100,
+    "check_chassis_and_vehicle":true,
+    "check_control":true,
+    "messages": {
+        "active_message": [
+            4
+        ],
+        "message_info": [
+            {
+                "type": 0,
+                "name": "LCM",
+                "url": "udpm://239.255.76.21:7621?ttl=3"
+            },
+            {
+                "type": 1,
+                "name": "DDS",
+                "url": "{\"participant_qos\": {\"domain_id\": 0,\"shm\": { \"enable\": true},\"udp\": {\"enable\": true,\"ttl\": 3},\"tcp\": {\"enable\": false,\"mode\": 0,\"ip\": \"127.0.0.1\",\"server_port\": 5100,\"listen_port\": 5100},\"intraprocess\": false,\"data_sharing\": true,\"statistics\": false},\"writer_qos\": {\"history\": {\"kind\": 0,\"depth\": 5},\"reliability\": 2,\"liveliness\": {\"kind\": 0,\"lease_duration\": \"INF\",\"announcement_period\": \"INF\"},\"durability\": 1,\"ownership\": {\"kind\": 0,\"ownership_strength\": 0},\"history_memory_policy\": 3,\"publish_mode\": 1,\"deadline\": \"INF\",\"lifespan\": \"INF\",\"auto_fill_type_object\":false,\"auto_fill_type_information\":true},\"reader_qos\": {\"history\": {\"kind\": 0,\"depth\": 5},\"reliability\": 2,\"liveliness\": {\"kind\": 0,\"lease_duration\": \"INF\",\"announcement_period\": \"INF\"},\"durability\": 1,\"ownership\": {\"kind\": 0,\"ownership_strength\": 0},\"history_memory_policy\": 3,\"deadline\": \"INF\",\"lifespan\": \"INF\",\"auto_fill_type_object\":false,\"auto_fill_type_information\":true}}"
+            },
+            {
+                "type": 2,
+                "name": "ROS",
+                "url":"null"
+            },
+            {
+                "type": 3,
+                "name": "ADSFI",
+                "url": "null"
+            },
+            {
+                "type": 4,
+                "name": "ROS2",
+                "url": "null"
+            }
+        ]
+    },
+    "keboard_duration" :100,
+    "teleop_mode":"WECHAT",
+    "settings":{
+        "stop_threshold":{
+            "stop_speed_threshold": 0.001,
+            "stop_brake_threshold": 15
+        },
+        "num_divisions":{
+            "accel_num_divisions": 8,
+            "brake_num_divisions": 8,
+            "steer_num_divisions": 6,
+            "steer_rate_num_divisions": 8,
+            "speed_num_divisions": 20
+        },
+        "max":{
+            "max_steering": 30,
+            "max_steering_rate": 1,
+            "max_accel_value": 10,
+            "max_brake_value": 80,
+            "max_speed_value": 4
+        },
+        "min":{
+            "min_steering": -30,
+            "min_steering_rate": 0.0,
+            "min_accel_value": 0.0,
+            "min_brake_value": 0 ,
+            "min_speed_value": 0
+        }
+    },
+    "max_miss_tms":{
+        "max_miss_tms_chassis": 2,
+        "max_miss_tms_localization": 1,
+        "max_miss_tms_vehicle": 2,
+        "max_miss_tms_control": 4
+    },
+    "state_machine": {
+        "enable_print": true
+    }
+}

@@ -1,0 +1,16 @@
+ #ifndef __TrafficLightList__idl__
+#define __TrafficLightList__idl__
+#include "TrafficLight.idl"
+#include "Header.idl"
+module ros2_interface{
+ module msg{
+  struct TrafficLightList{
+    ros2_interface::msg::Header   _header;
+    sequence<ros2_interface::msg::TrafficLight> _traffic_light;
+    uint8   _source;
+    uint8   _camera_status;
+    boolean   _is_valid;
+  };
+ };
+}; 
+#endif

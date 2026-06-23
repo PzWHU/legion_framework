@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/FrenetFramePoint.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct FrenetFramePoint {
+      @verbatim (language="comment", text=
+        "纵向位移")
+      double s;
+
+      @verbatim (language="comment", text=
+        "横向位移")
+      double l;
+
+      @verbatim (language="comment", text=
+        "横向位移变化率")
+      double dl;
+
+      @verbatim (language="comment", text=
+        "横向位移变化率的变化率")
+      double ddl;
+    };
+  };
+};

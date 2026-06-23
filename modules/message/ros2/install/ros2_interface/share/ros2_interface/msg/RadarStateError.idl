@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/RadarStateError.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct RadarStateError {
+      uint8 persistent_error;
+
+      uint8 temporary_error;
+
+      uint8 interference_error;
+
+      uint8 temperature_error;
+
+      uint8 voltage_error;
+
+      uint8 block_error;
+
+      uint8 broadcast_error;
+
+      uint8 electric_axis_error;
+
+      uint8 config_error;
+
+      uint8 calibration_error;
+    };
+  };
+};

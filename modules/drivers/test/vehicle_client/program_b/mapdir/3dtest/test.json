@@ -1,0 +1,81 @@
+{
+    "name": "3dtest2",
+    "type": "3",
+    "resolution": 0.4,
+    "utm_border": {
+        "min_x": -120.88606726488797,
+        "max_x": 42.64400750264758,
+        "min_y": -147.25535993510857,
+        "max_y": 2.9706764612346888
+    },
+    "pixel_per_meter": 2.5,
+    "origin": [
+        30.444914811173376,
+        114.08191418260574,
+        0.0
+    ],
+    "start": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "height": 375.56509099085815,
+    "width": 408.8251869188389,
+    "area_list": [
+        {
+            "id": 0,
+            "name": "1",
+            "type": "normal",
+            "compress_pic_coord": [
+                283.51051134229357,
+                63.541797102563415
+            ],
+            "adjacent": [],
+            "coordinate": [
+                30.44465375361719,
+                114.08187013297064
+            ],
+            "heading": 174.66172370855753
+        },
+        {
+            "id": 1,
+            "name": "2",
+            "type": "normal",
+            "compress_pic_coord": [
+                42.36224205363617,
+                131.31462077555142
+            ],
+            "adjacent": [],
+            "coordinate": [
+                30.44432494744433,
+                114.08085379640826
+            ],
+            "heading": -89.43043100487986
+        },
+        {
+            "id": 2,
+            "name": "3",
+            "type": "normal",
+            "compress_pic_coord": [
+                317.11292295143556,
+                201.5212768837863
+            ],
+            "adjacent": [],
+            "coordinate": [
+                30.444034261331897,
+                114.08203158575918
+            ],
+            "heading": 48.8781024482759
+        }
+    ],
+    "track_list": [
+        {
+            "id": 1,
+            "name": "3dtest_1",
+            "path": "/home/lx/workspace/legion-framework/modules/drivers/wxapp/traj/",
+            "type": "record",
+            "length": 1319
+        }
+       
+    ]
+}

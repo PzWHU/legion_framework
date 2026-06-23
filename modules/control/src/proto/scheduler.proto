@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package legion.control;
+
+message Scheduler {
+  optional double speed = 1;
+  optional double ratio = 2;
+  optional double error = 3;
+}

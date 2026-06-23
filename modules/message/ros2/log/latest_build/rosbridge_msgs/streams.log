@@ -1,0 +1,236 @@
+[0.058s] Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs
+[0.502s] -- The C compiler identification is GNU 9.4.0
+[0.906s] -- The CXX compiler identification is GNU 9.4.0
+[0.926s] -- Check for working C compiler: /usr/bin/cc
+[1.151s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.153s] -- Detecting C compiler ABI info
+[1.426s] -- Detecting C compiler ABI info - done
+[1.496s] -- Detecting C compile features
+[1.498s] -- Detecting C compile features - done
+[1.512s] -- Check for working CXX compiler: /usr/bin/c++
+[1.734s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.738s] -- Detecting CXX compiler ABI info
+[2.097s] -- Detecting CXX compiler ABI info - done
+[2.118s] -- Detecting CXX compile features
+[2.119s] -- Detecting CXX compile features - done
+[2.126s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.239s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.474s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[2.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.558s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.901s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.999s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.206s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[3.298s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.909s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.919s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.034s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.035s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.036s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.110s] -- Found PythonExtra: .so  
+[4.304s] -- Configuring done
+[4.392s] -- Generating done
+[4.416s] -- Build files have been written to: /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs
+[4.446s] Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs
+[4.451s] Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j8 -l8
+[4.583s] [35m[1mScanning dependencies of target rosbridge_msgs__cpp[0m
+[4.593s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.621s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.238s] [  5%] Built target rosbridge_msgs__cpp
+[5.273s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.321s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.328s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.407s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_generator_c[0m
+[5.478s] [ 15%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_client__functions.c.o[0m
+[5.484s] [ 17%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_clients__functions.c.o[0m
+[5.759s] [ 20%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_generator_c.so[0m
+[5.972s] [ 20%] Built target rosbridge_msgs__rosidl_generator_c
+[6.007s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.012s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.622s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.655s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_cpp[0m
+[6.748s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[6.772s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_client__type_support.cpp.o[0m
+[6.775s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_clients__type_support.cpp.o[0m
+[6.776s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[6.818s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c[0m
+[6.924s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.939s] [ 38%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_client__type_support.c.o[0m
+[6.958s] [ 41%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_clients__type_support.c.o[0m
+[7.000s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_client__type_support.cpp.o[0m
+[7.094s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp.o[0m
+[7.102s] [ 48%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.342s] [ 48%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[7.752s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_c[0m
+[7.790s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[7.830s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[7.950s] [ 56%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.978s] [ 58%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_cpp.so[0m
+[7.988s] [ 61%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_c.so[0m
+[8.121s] [ 61%] Built target rosbridge_msgs__rosidl_typesupport_c
+[8.173s] [ 61%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[8.501s] [ 61%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[8.542s] [ 64%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.818s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[8.874s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.378s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c[0m
+[9.428s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_clients__type_support_c.cpp.o[0m
+[9.430s] [ 71%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_client__type_support_c.cpp.o[0m
+[10.198s] [ 74%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.522s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[10.599s] [35m[1mScanning dependencies of target rosbridge_msgs[0m
+[10.657s] [ 74%] Built target rosbridge_msgs
+[10.796s] [35m[1mScanning dependencies of target rosbridge_msgs__py[0m
+[10.863s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.788s] [ 76%] Built target rosbridge_msgs__py
+[11.841s] [35m[1mScanning dependencies of target rosbridge_msgs__python[0m
+[11.989s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_msgs__python.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_clients_s.c.o[0m
+[11.989s] [ 82%] [32mBuilding C object CMakeFiles/rosbridge_msgs__python.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_client_s.c.o[0m
+[12.288s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/librosbridge_msgs__python.so[0m
+[12.483s] [ 84%] Built target rosbridge_msgs__python
+[12.520s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_c__pyext[0m
+[12.537s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[12.546s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[12.622s] [ 87%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.627s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.652s] [ 92%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.838s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[12.912s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[12.976s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[13.013s] [100%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[13.088s] [100%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[13.167s] [100%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.200s] Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j8 -l8
+[13.281s] Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs
+[13.298s] -- Install configuration: ""
+[13.299s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[13.300s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.301s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.301s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.h
+[13.301s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__functions.c
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__functions.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__functions.c
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.h
+[13.302s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.303s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[13.304s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[13.304s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[13.305s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so" to ""
+[13.306s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.307s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.308s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.308s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[13.308s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[13.308s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.315s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[13.316s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.316s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.316s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.316s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.316s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.316s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[13.316s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/dds_fastrtps
+[13.316s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[13.316s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.318s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.318s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.318s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.318s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.318s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.c
+[13.319s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[13.319s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[13.319s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.c
+[13.323s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.324s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[13.327s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.328s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[13.330s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so" to ""
+[13.333s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.336s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.337s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.hpp
+[13.338s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.339s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[13.340s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[13.340s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[13.341s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[13.341s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[13.342s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[13.342s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.hpp
+[13.352s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs
+[13.353s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg
+[13.355s] -- Up-to-date: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail
+[13.358s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp
+[13.360s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.cpp
+[13.362s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[13.366s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[13.367s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[13.368s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.371s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[13.372s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so" to ""
+[13.373s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[13.373s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[13.373s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/__init__.py
+[13.407s] Compiling '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/__init__.py'...
+[13.423s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg
+[13.423s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_clients.py
+[13.424s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_clients_s.c
+[13.425s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_client_s.c
+[13.425s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_client.py
+[13.426s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/__init__.py
+[13.426s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[13.426s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[13.427s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[13.427s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[13.428s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[13.428s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[13.429s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__python.so
+[13.430s] -- Set runtime path of "/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/librosbridge_msgs__python.so" to ""
+[13.430s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[13.431s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[13.431s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[13.431s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[13.431s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[13.432s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[13.433s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[13.434s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[13.435s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[13.435s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[13.435s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[13.435s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport.cmake
+[13.435s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.436s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.436s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.436s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[13.436s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.436s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cppExport.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[13.437s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.438s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.440s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.440s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.441s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.441s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.442s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[13.442s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[13.442s] -- Installing: /home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[13.449s] Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs

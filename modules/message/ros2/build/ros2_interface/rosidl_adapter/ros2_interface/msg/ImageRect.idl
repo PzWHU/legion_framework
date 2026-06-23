@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/ImageRect.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct ImageRect {
+      @verbatim (language="comment", text=
+        "coordinate x of left-top point of image rect")
+      int32 x;
+
+      @verbatim (language="comment", text=
+        "coordinate y of left-top point of image rect")
+      int32 y;
+
+      @verbatim (language="comment", text=
+        "width of image rect")
+      int32 width;
+
+      @verbatim (language="comment", text=
+        "height of image rect")
+      int32 height;
+    };
+  };
+};

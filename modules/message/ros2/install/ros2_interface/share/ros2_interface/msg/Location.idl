@@ -1,0 +1,98 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/Location.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/Point3D.idl"
+#include "ros2_interface/msg/PointENU.idl"
+#include "ros2_interface/msg/PointLLH.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct Location {
+      @verbatim (language="comment", text=
+        "消息头")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "经纬度高程")
+      ros2_interface::msg::PointLLH position;
+
+      @verbatim (language="comment", text=
+        "方向(单位弧度，-π～π,正东:0, 逆时针。都满足右手定则)")
+      double pitch;
+
+      double roll;
+
+      double heading;
+
+      @verbatim (language="comment", text=
+        "线速度（m/s，北东地坐标系）")
+      ros2_interface::msg::Point3D linear_velocity;
+
+      @verbatim (language="comment", text=
+        "线加速度（m/s2，前右下坐标系）")
+      ros2_interface::msg::Point3D linear_acceleration;
+
+      @verbatim (language="comment", text=
+        "角速度（度/s，前右下，满足右手定则）")
+      ros2_interface::msg::Point3D angular_velocity;
+
+      @verbatim (language="comment", text=
+        "RTK标志值")
+      int32 rtk_flag;
+
+      @verbatim (language="comment", text=
+        "融合标志:0-(纯ins) 1-(纯轮速) 2-(泊车递推) 3-(无) 4-(orb匹配定位)")
+      int32 odom_type;
+
+      @verbatim (language="comment", text=
+        "辅助方式:0-NULL(无辅助方式) 1-laneliine_map(车道线/标识牌)2-feature_map(lidar)3-feature_map(lidar_camera)")
+      int32 auxiliary_type;
+
+      @verbatim (language="comment", text=
+        "Location有效性标志位0: invalid； 1: valid")
+      int32 location_valid_flag;
+
+      @verbatim (language="comment", text=
+        "参考点纬度 GCJ-02格式")
+      double origin_lat;
+
+      @verbatim (language="comment", text=
+        "参考点经度 GCJ-02格式")
+      double origin_lon;
+
+      @verbatim (language="comment", text=
+        "相对参考点xyz坐标")
+      ros2_interface::msg::PointENU utm_position;
+
+      @verbatim (language="comment", text=
+        "0::无坐标系切换 1:坐标系切换成功2:坐标系切换中3:坐标系切换故障")
+      int32 change_origin_flag;
+
+      @verbatim (language="comment", text=
+        "相对参考点坐标(切换状态下，为新的原点坐标系下)")
+      ros2_interface::msg::PointENU utm_position_next;
+
+      @verbatim (language="comment", text=
+        "位置标准差")
+      ros2_interface::msg::Point3D position_std_dev;
+
+      @verbatim (language="comment", text=
+        "方向标准差")
+      ros2_interface::msg::Point3D orientation_std_dev;
+
+      @verbatim (language="comment", text=
+        "速度标准差")
+      ros2_interface::msg::Point3D linear_velocity_std_dev;
+
+      @verbatim (language="comment", text=
+        "加速度标准差")
+      ros2_interface::msg::Point3D linear_acceleration_std_dev;
+
+      @verbatim (language="comment", text=
+        "角速度标准差")
+      ros2_interface::msg::Point3D angular_velocity_std_dev;
+    };
+  };
+};

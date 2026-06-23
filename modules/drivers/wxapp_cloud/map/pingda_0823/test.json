@@ -1,0 +1,36 @@
+{
+    "name": "\u54c1\u8fbe",
+    "type": "3",
+    "resolution": 0.4,
+    "utm_border": {
+        "min_x": -47.63603583723307,
+        "max_x": 2.6889433571486734,
+        "min_y": -123.08480706484988,
+        "max_y": -1.4419610719196498
+    },
+    "pixel_per_meter": 40,
+    "origin": [
+        30.444914811173376,
+        114.08191418260574,
+        0.0
+    ],
+    "start": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "height": 4865.713839717209,
+    "width": 2012.9991677752696,
+    "area_list": [
+       
+    ],
+    "track_list": [
+        {
+            "id": 1,
+            "name": "3dtest_1",
+            "path": "/home/lx/workspace/legion-framework/modules/drivers/wxapp/traj/",
+            "type": "record",
+            "length": 1319
+        }
+    ]
+} 

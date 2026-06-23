@@ -1,0 +1,2 @@
+ros_interface
+-DCATKIN_DEVEL_PREFIX=/home/titan/legion_framework/modules/drivers/wxapp/devel -DCMAKE_INSTALL_PREFIX=/home/titan/legion_framework/modules/drivers/wxapp/install -G Unix Makefiles

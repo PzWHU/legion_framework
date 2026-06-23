@@ -1,0 +1,22 @@
+ #ifndef __NaviInfoMsg__idl__
+#define __NaviInfoMsg__idl__
+#include "Header.idl"
+module ros2_interface{
+ module msg{
+  struct NaviInfoMsg{
+    ros2_interface::msg::Header   _header;
+    uint32   _lane_type;
+    uint32   _lane_count;
+    uint32   _lane_index;
+    uint32   _lane_target;
+    float   _road_speed;
+    float   _turning_speed;
+    float   _turning_deriction;
+    float   _distance_to_cross;
+    boolean   _traffic_light_stop;
+    uint32   _crossing_behavior;
+    float   _distance_to_stop;
+  };
+ };
+}; 
+#endif

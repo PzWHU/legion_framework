@@ -1,0 +1,23 @@
+{
+    "canport":[
+        {
+            "info":"CHACAN; speed: preprocessor && forward to can4 | forward to cpu; default forward to can4 | cpu",
+            "channel_id":0,
+            "recv_len":10,
+            "default_forward_list":32768,
+            "send_priority":99,
+            "timer_high_performance_enable": false,
+            "canframe":[
+                
+            ]
+        },
+        {
+            "info":"CPU; wheel speed && gear: forward to can2; light: forward to can1; default forward to can0 | can4",
+            "channel_id":15,
+            "default_forward_list":3,
+            "canframe":[
+         
+            ]
+        }
+    ]
+}

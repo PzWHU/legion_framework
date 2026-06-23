@@ -1,0 +1,93 @@
+{
+    "canport":[
+        {
+            "info":"IMU can; no receiving",
+            "channel_id":2,
+            "recv_len":1,
+            "default_forward_list":32768,
+            "send_priority":96,
+            "timer_high_performance_enable": false,
+            "canframe":[
+            ]
+        },
+        {
+            "info":"CHACAN; speed: preprocessor && forward to can4 | forward to cpu; default forward to can4 | cpu",
+            "channel_id":0,
+            "recv_len":10,
+            "default_forward_list":32784,
+            "send_priority":99,
+            "timer_high_performance_enable": false,
+            "canframe":[
+                {
+                    "info":"vehicle speed report",
+                    "frame_id":530,
+                    "specified_forward_list":32784,
+                    "preprocessor":"vehicle_speed_override",
+                    "preprocess_list":16
+                },
+                {
+                    "info":"front wheel speed report",
+                    "frame_id":322,
+                    "specified_forward_list":32784,
+                    "preprocessor":"wheel_speed_override",
+                    "preprocess_list":16
+                },
+                {
+                    "info":"rear wheel speed report",
+                    "frame_id":290,
+                    "specified_forward_list":32784,
+                    "preprocessor":"wheel_speed_override",
+                    "preprocess_list":16
+                }
+            ]
+        },
+        {
+            "info":"BDCAN can; default forward to cpu",
+            "channel_id":1,
+            "recv_len":1,
+            "default_forward_list":32768,
+            "send_priority":96,
+            "timer_high_performance_enable": false,
+            "canframe":[
+            ]
+        },
+        {
+            "info":"CHACAN for EPS; default forward to can0 | cpu",
+            "channel_id":4,
+            "recv_len":1,
+            "default_forward_list":32769,
+            "send_priority":99,
+            "timer_high_performance_enable": true,
+            "canframe":[
+            ]
+        },
+        {
+            "info":"CPU; wheel speed && gear: forward to can2; light: forward to can1; default forward to can0 | can4",
+            "channel_id":15,
+            "default_forward_list":17,
+            "canframe":[
+                {
+                    "info":"BDCAN light control",
+                    "frame_id":809,
+                    "specified_forward_list":2,
+                    "preprocessor":"None",
+                    "preprocess_list":0
+                },
+                {
+                    "info":"wheel speed report for IMU",
+                    "frame_id":1680,
+                    "specified_forward_list":4,
+                    "preprocessor":"None",
+                    "preprocess_list":0
+                },
+                {
+                    "info":"gear report for IMU",
+                    "frame_id":1679,
+                    "specified_forward_list":4,
+                    "preprocessor":"None",
+                    "preprocess_list":0
+                }  
+            ]
+        }
+    ]
+}

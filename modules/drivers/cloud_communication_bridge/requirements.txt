@@ -1,0 +1,5 @@
+paho-mqtt>=1.6.1
+websockets>=11.0
+rclpy>=3.3.0
+std-msgs>=4.2.0
+

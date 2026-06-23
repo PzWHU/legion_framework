@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/TrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/PathPoint.idl"
+
+module ros2_interface {
+  module msg {
+    struct TrajectoryPoint {
+      @verbatim (language="comment", text=
+        "path point")
+      ros2_interface::msg::PathPoint path_point;
+
+      @verbatim (language="comment", text=
+        "linear velocity")
+      double v;
+
+      @verbatim (language="comment", text=
+        "linear acceleration")
+      double a;
+
+      @verbatim (language="comment", text=
+        "relative time from beginning of the trajectory")
+      double relative_time;
+
+      @verbatim (language="comment", text=
+        "longitudinal jerk")
+      double da;
+
+      @verbatim (language="comment", text=
+        "转向是否有效")
+      boolean is_steer_valid;
+
+      @verbatim (language="comment", text=
+        "The angle between vehicle front wheel and vehicle longitudinal axis")
+      double front_steer;
+
+      @verbatim (language="comment", text=
+        "后轮转角")
+      double rear_steer;
+
+      @verbatim (language="comment", text=
+        "档位")
+      int32 gear;
+    };
+  };
+};

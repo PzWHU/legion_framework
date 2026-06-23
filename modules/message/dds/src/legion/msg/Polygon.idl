@@ -1,0 +1,11 @@
+ #ifndef __Polygon__idl__
+#define __Polygon__idl__
+#include "Point3D.idl"
+module ros2_interface{
+ module msg{
+  struct Polygon{
+    sequence<ros2_interface::msg::Point3D> _points;
+  };
+ };
+}; 
+#endif

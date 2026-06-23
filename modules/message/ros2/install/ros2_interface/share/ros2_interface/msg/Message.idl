@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/Message.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct Message {
+      @verbatim (language="comment", text=
+        "指定需要显示的值的code定义，需要与self_id绑定 作为前缀")
+      int32 code;
+
+      @verbatim (language="comment", text=
+        "对应显示的值或表达的状态")
+      int32 value;
+    };
+  };
+};

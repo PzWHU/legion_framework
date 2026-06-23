@@ -1,0 +1,145 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/ControlCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct ControlCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 steer_driving_mode;
+
+      @verbatim (language="comment", text=
+        "target steering angle")
+      double front_steering_target;
+
+      @verbatim (language="comment", text=
+        "target steering angle")
+      double rear_steering_target;
+
+      @verbatim (language="comment", text=
+        "target non-directional steering rate")
+      double front_steering_rate;
+
+      @verbatim (language="comment", text=
+        "target non-directional steering rate")
+      double rear_steering_rate;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 accel_driving_mode;
+
+      @verbatim (language="comment", text=
+        "target accel value")
+      double accel_value;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 brake_driving_mode;
+
+      @verbatim (language="comment", text=
+        "target brake")
+      double brake_value;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 backup_brake_driving_mode;
+
+      @verbatim (language="comment", text=
+        "target brake")
+      double backup_brake_value;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 epb_driving_mode;
+
+      @verbatim (language="comment", text=
+        "0=RELEASE 1=APPLIY 2=INVALID")
+      int32 epb_level;
+
+      @verbatim (language="comment", text=
+        "0=COMPLETE_MANUAL  1=COMPLETE_AUTO_DRIVE 4=EMERGENCY_MODE")
+      int32 gear_driving_mode;
+
+      @verbatim (language="comment", text=
+        "0=disenable  1=enable")
+      int8 emergency_brake_enable;
+
+      @verbatim (language="comment", text=
+        "0=GEAR_NEUTRAL 1=GEAR_DRIVE 2=GEAR_REVERSE 3=GEAR_PARKING 4=GEAR_LOW 5=GEAR_INVALID 6=GEAR_NONE")
+      int32 gear_location;
+
+      @verbatim (language="comment", text=
+        "target speed, in m/s")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "target acceleration in m`s^-2")
+      double acceleration;
+
+      @verbatim (language="comment", text=
+        "转向灯 0 关闭 1 开启 2 不响应")
+      int32 turn_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 high_beam_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 low_beam_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 horn_ctrl;
+
+      @verbatim (language="comment", text=
+        "前雨刮器 0 关闭 1 开启")
+      int32 front_wiper_ctrl;
+
+      @verbatim (language="comment", text=
+        "后雨刮器 0 关闭 1 开启")
+      int32 rear_wiper_ctrl;
+
+      @verbatim (language="comment", text=
+        "位置灯 0 关闭 1 开启")
+      int32 position_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "前雾灯 0 关闭 1 开启")
+      int32 front_fog_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "后雾灯 0 关闭 1 开启")
+      int32 rear_fog_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "刹车灯 一般情况自动控制 0 关闭 1 开启")
+      int32 brake_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "警报灯 双闪 0 关闭 1 开启")
+      int32 alarm_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "左前门控制 0 关闭 1 开启")
+      int32 lf_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "右前门控制 0 关闭 1 开启")
+      int32 rf_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "左后门控制 0 关闭 1 开启")
+      int32 lr_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "右后门控制 0 关闭 1 开启")
+      int32 rr_door_ctrl;
+    };
+  };
+};

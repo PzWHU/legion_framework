@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/CameraParkingInfo.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/ImageKeyPoint.idl"
+#include "ros2_interface/msg/Point3D.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct CameraParkingInfo {
+      @verbatim (language="comment", text=
+        "timestamp is  included in header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "停车位id")
+      int32 parking_space_id;
+
+      @verbatim (language="comment", text=
+        "PARKING_TYPE=0//无效泊车 PARKING_TYPE=1//垂直泊车 PARKING_TYPE=2//水平泊车 PARKING_TYPE=3//倾斜泊车")
+      int32 parking_type;
+
+      @verbatim (language="comment", text=
+        "PARKING_ENABLE=0//不可泊入 PARKING_ENABLE=1//可泊入")
+      boolean is_parking_enable;
+
+      @verbatim (language="comment", text=
+        "停车位置信度")
+      double confidence;
+
+      @verbatim (language="comment", text=
+        "车辆坐标系的停车位中心点")
+      ros2_interface::msg::Point3D center_point_of_parking;
+
+      @verbatim (language="comment", text=
+        "车辆坐标系下停车位的朝向")
+      double theta;
+
+      @verbatim (language="comment", text=
+        "停车位宽")
+      double width;
+
+      @verbatim (language="comment", text=
+        "停车位长")
+      double length;
+
+      @verbatim (language="comment", text=
+        "停车位角度偏移量（倾斜车位），倾斜车位与道路边线夹角")
+      double yaw_offset;
+
+      @verbatim (language="comment", text=
+        "图像坐标系下停车位关键点，顺时针方向")
+      sequence<ros2_interface::msg::ImageKeyPoint> parking_points_in_image;
+    };
+  };
+};

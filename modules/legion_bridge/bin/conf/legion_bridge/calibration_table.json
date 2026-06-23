@@ -1,0 +1,48 @@
+{
+    "calibration_table": [
+        {
+            "speed": 0.1,
+            "brake": 6.5
+        },
+        {
+            "speed": 0.3,
+            "brake": 7
+        },
+        {
+            "speed": 0.5,
+            "brake": 8
+        },
+        {
+            "speed": 0.7,
+            "brake": 10
+        },
+        {
+            "speed": 0.9,
+            "brake": 14
+        },
+        {
+            "speed": 1.1,
+            "brake": 16
+        },
+        {
+            "speed": 1.3,
+            "brake": 20
+        },
+        {
+            "speed": 1.5,
+            "brake": 23
+        },
+        {
+            "speed": 1.7,
+            "brake": 30
+        },
+        {
+            "speed": 1.9,
+            "brake": 35
+        },
+        {
+            "speed": 2.1,
+            "brake": 40
+        }
+    ]
+}

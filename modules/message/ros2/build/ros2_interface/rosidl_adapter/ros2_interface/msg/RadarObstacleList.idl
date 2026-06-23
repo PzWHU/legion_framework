@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/RadarObstacleList.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/RadarObstacle.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct RadarObstacleList {
+      @verbatim (language="comment", text=
+        "消息头")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "毫米波雷达障碍物数组")
+      sequence<ros2_interface::msg::RadarObstacle> radar_obstacle;
+    };
+  };
+};

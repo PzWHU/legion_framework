@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CycloneDDS XML 配置文件 - B 端 (192.168.1.102)
+
+  适配版本: CycloneDDS >= 0.8.0 (包括 6.1.13)
+  适用于:   ROS 2 Galactic / Humble / Iron 等
+
+  与 A 端 (.101) 的差异:
+  - Peers: 列出除本机外的所有机器 IP
+
+  共享内存说明:
+  - XML 配置中不包含 SharedMemory 子元素 (CycloneDDS 0.8.0 不支持)
+  - 共享内存由 ROS 2 RMW 层自动管理
+  - 如已安装 iceoryx，本机进程间自动使用 SHM
+  - 跨机器通信自动回退到 UDP
+
+  注意: NetworkInterfaceAddress 元素在 CycloneDDS >= 0.9.0 中已 deprecated，
+        但仍可正常工作，仅产生警告，不影响功能。
+-->
+<CycloneDDS xmlns="https://cdds.io/config">
+
+  <Domain Id="any">
+
+    <!-- ============================================== -->
+    <!-- 共享内存说明 -->
+    <!-- ============================================== -->
+    <!--
+      CycloneDDS 0.8.0 的 XML 配置不支持 SharedMemory 子元素。
+      共享内存由 ROS 2 RMW 层自动管理：
+      - 如果 iceoryx 已安装，本机进程间自动使用 SHM
+      - 跨机器通信自动回退到 UDP
+    -->
+
+    <!-- ============================================== -->
+    <!-- 通用配置 (跨机器网络通信) -->
+    <!-- ============================================== -->
+    <General>
+      <!--
+        网络接口地址
+        支持网卡名 (eth0) 或 IP 地址
+      -->
+      <NetworkInterfaceAddress>eth0</NetworkInterfaceAddress>
+
+      <!-- 最大 UDP 消息大小: 65500 字节 -->
+      <MaxMessageSize>65500 B</MaxMessageSize>
+
+      <!--
+        多播控制:
+        - false:  完全禁用多播，强制单播
+        - spdp:   仅 participant discovery 使用多播，数据使用单播 (推荐)
+        - true:   启用多播
+      -->
+      <AllowMulticast>spdp</AllowMulticast>
+    </General>
+
+    <!-- ============================================== -->
+    <!-- 发现协议配置 -->
+    <!-- ============================================== -->
+    <Discovery>
+      <!--
+        SPDP 多播地址
+        默认 239.255.0.1
+        当 AllowMulticast=spdp 时生效
+      -->
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>
+
+      <!-- SPDP 广播间隔: 5s -->
+      <SPDPInterval>5 s</SPDPInterval>
+
+      <!--
+        静态对等节点地址
+        B 端列出 A (.101)、C (.103)、D (.136) 三台机器
+        不需要列出自己
+      -->
+      <Peers>
+        <Peer address="192.168.1.101:7400"/>
+        <Peer address="192.168.1.103:7400"/>
+        <Peer address="192.168.1.136:7400"/>
+      </Peers>
+
+      <!-- 最大参与者索引 -->
+      <MaxAutoParticipantIndex>9</MaxAutoParticipantIndex>
+    </Discovery>
+
+    <!-- ============================================== -->
+    <!-- 内部配置 -->
+    <!-- ============================================== -->
+    <Internal>
+      <LeaseDuration>10 s</LeaseDuration>
+    </Internal>
+
+    <!-- ============================================== -->
+    <!-- 日志配置 -->
+    <!-- ============================================== -->
+    <Tracing>
+      <!--
+        日志级别:
+        - none    禁用日志
+        - severe  仅致命错误
+        - warning 警告+错误 (默认)
+        - info    信息+警告
+        - fine    发现日志
+        - finest  最详细
+      -->
+      <Verbosity>warning</Verbosity>
+    </Tracing>
+
+    <!-- ============================================== -->
+    <!-- 兼容性配置 -->
+    <!-- ============================================== -->
+    <Compatibility>
+      <!-- 标准一致性: lax 兼容性最好 -->
+      <StandardsConformance>lax</StandardsConformance>
+      <!-- 每个主机一个 socket -->
+      <ManySocketsMode>single</ManySocketsMode>
+    </Compatibility>
+
+  </Domain>
+</CycloneDDS>

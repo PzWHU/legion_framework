@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/ImageKeyPoint.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct ImageKeyPoint {
+      @verbatim (language="comment", text=
+        "车位图像关键点x坐标")
+      double x;
+
+      @verbatim (language="comment", text=
+        "车位图像关键点y坐标")
+      double y;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      double confidence;
+    };
+  };
+};

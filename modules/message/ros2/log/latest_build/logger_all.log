@@ -1,0 +1,254 @@
+[0.709s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.709s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb1c16700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb1c16700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb1a4c8b0>)
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.055s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/beacon/legion_framework/modules/message/ros2'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'colcon_pkg'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'colcon_meta'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'ros'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['cmake', 'python']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'python'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extensions ['python_setup_py']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion) by extension 'python_setup_py'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extension 'ignore'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extension 'colcon_pkg'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/legion/ros2_interface) by extension 'ros'
+[1.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/legion/ros2_interface' with type 'ros.ament_cmake' and name 'ros2_interface'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_msgs) by extension 'ros'
+[1.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.354s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_args' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_target' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.355s] Level 5:colcon.colcon_core.verb:set package 'ros2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.355s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface', 'merge_install': False, 'path': '/home/beacon/legion_framework/modules/message/ros2/src/legion/ros2_interface', 'symlink_install': False, 'test_result_base': None}
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_args' from command line to 'None'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target' from command line to 'None'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.357s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.357s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs', 'merge_install': False, 'path': '/home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beacon/legion_framework/modules/message/ros2/src/legion/ros2_interface' with build type 'ament_cmake'
+[1.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beacon/legion_framework/modules/message/ros2/src/legion/ros2_interface'
+[1.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs' with build type 'ament_cmake'
+[1.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs'
+[1.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/legion/ros2_interface -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs
+[5.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs
+[5.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j8 -l8
+[10.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/beacon/legion_framework/modules/message/ros2/src/legion/ros2_interface -DCMAKE_INSTALL_PREFIX=/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface
+[10.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/ros2_interface -- -j8 -l8
+[14.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j8 -l8
+[14.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs
+[14.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[14.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/rosbridge_msgs
+[14.907s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs' for CMake module files
+[14.908s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs' for CMake config files
+[14.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[14.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[14.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[14.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[14.921s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib'
+[14.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[14.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[14.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[14.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[14.927s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/bin'
+[14.927s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[14.927s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages'
+[14.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[14.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[14.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[14.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[14.934s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/bin'
+[14.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[14.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[14.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[14.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[14.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[14.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[14.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[14.985s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs' for CMake module files
+[14.987s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs' for CMake config files
+[14.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[14.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[14.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[14.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[14.998s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib'
+[14.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[15.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[15.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[15.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[15.016s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/bin'
+[15.017s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[15.018s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/lib/python3.8/site-packages'
+[15.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[15.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[15.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[15.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[15.025s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/bin'
+[15.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[15.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[15.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[15.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[15.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[15.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beacon/legion_framework/modules/message/ros2/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[369.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/beacon/legion_framework/modules/message/ros2/build/ros2_interface -- -j8 -l8
+[369.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/ros2_interface
+[371.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_interface)
+[371.740s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface' for CMake module files
+[371.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beacon/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/beacon/legion_framework/modules/message/ros2/build/ros2_interface
+[371.744s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface' for CMake config files
+[371.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'cmake_prefix_path')
+[371.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.ps1'
+[371.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.dsv'
+[371.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.sh'
+[371.759s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib'
+[371.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'ld_library_path_lib')
+[371.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.ps1'
+[371.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.dsv'
+[371.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.sh'
+[371.763s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/bin'
+[371.763s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib/pkgconfig/ros2_interface.pc'
+[371.764s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib/python3.8/site-packages'
+[371.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'pythonpath')
+[371.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.ps1'
+[371.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.dsv'
+[371.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.sh'
+[371.768s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/bin'
+[371.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.ps1'
+[371.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.dsv'
+[371.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.sh'
+[372.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.bash'
+[372.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.zsh'
+[372.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/colcon-core/packages/ros2_interface)
+[372.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_interface)
+[372.100s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface' for CMake module files
+[372.107s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface' for CMake config files
+[372.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'cmake_prefix_path')
+[372.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.ps1'
+[372.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.dsv'
+[372.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/cmake_prefix_path.sh'
+[372.129s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib'
+[372.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'ld_library_path_lib')
+[372.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.ps1'
+[372.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.dsv'
+[372.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/ld_library_path_lib.sh'
+[372.135s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/bin'
+[372.135s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib/pkgconfig/ros2_interface.pc'
+[372.136s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/lib/python3.8/site-packages'
+[372.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_interface', 'pythonpath')
+[372.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.ps1'
+[372.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.dsv'
+[372.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/hook/pythonpath.sh'
+[372.141s] Level 1:colcon.colcon_core.environment:checking '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/bin'
+[372.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.ps1'
+[372.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.dsv'
+[372.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.sh'
+[372.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.bash'
+[372.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/ros2_interface/package.zsh'
+[372.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beacon/legion_framework/modules/message/ros2/install/ros2_interface/share/colcon-core/packages/ros2_interface)
+[372.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[372.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[372.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[372.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[372.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[372.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[372.181s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[372.359s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[372.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beacon/legion_framework/modules/message/ros2/install/local_setup.ps1'
+[372.363s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beacon/legion_framework/modules/message/ros2/install/_local_setup_util_ps1.py'
+[372.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beacon/legion_framework/modules/message/ros2/install/setup.ps1'
+[372.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beacon/legion_framework/modules/message/ros2/install/local_setup.sh'
+[372.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beacon/legion_framework/modules/message/ros2/install/_local_setup_util_sh.py'
+[372.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beacon/legion_framework/modules/message/ros2/install/setup.sh'
+[372.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beacon/legion_framework/modules/message/ros2/install/local_setup.bash'
+[372.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beacon/legion_framework/modules/message/ros2/install/setup.bash'
+[372.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beacon/legion_framework/modules/message/ros2/install/local_setup.zsh'
+[372.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beacon/legion_framework/modules/message/ros2/install/setup.zsh'

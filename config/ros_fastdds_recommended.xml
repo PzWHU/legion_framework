@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles xmlns="http://www.eprosima.com/XMLSchats/fastRTPS_Profiles">
+
+    <!-- ============================================== -->
+    <!-- 传输描述符配置：仅使用UDP用于跨机器通信 -->
+    <!-- ============================================== -->
+    <transport_descriptors>
+      
+      <!-- UDP 网络传输（用于所有跨机器通信） -->
+      <transport_descriptor>
+        <transport_id>udp_transport</transport_id>
+        <type>UDPv4</type>
+        <maxMessageSize>65500</maxMessageSize>
+        <maxInitialPeersRange>500</maxInitialPeersRange>
+        <!-- 根据实际机器数量调整 -->
+        <initial_peers_list>
+          <locator>
+            <address>192.168.1.101</address>
+            <port>7410</port>
+          </locator>
+          <locator>
+            <address>192.168.1.103</address>
+            <port>7410</port>
+          </locator>
+          <locator>
+            <address>192.168.1.136</address>
+            <port>7410</port>
+          </locator>
+        </initial_peers_list>
+        <interfaceWhiteList>
+          <address>192.168.1.101</address>
+        </interfaceWhiteList>
+      </transport_descriptor>
+
+    </transport_descriptors>
+
+    <!-- ============================================== -->
+    <!-- Participant 配置：仅使用UDP -->
+    <!-- ============================================== -->
+    <participant profile_name="fastdds_participant">
+      <rtps>
+        <!-- 仅启用UDP传输 -->
+        <userTransports>
+          <transport_id>udp_transport</transport_id>
+        </userTransports>
+        
+        <!-- 禁用内置传输 -->
+        <useBuiltinTransports>false</useBuiltinTransports>
+        
+        <builtin>
+          <discovery_config>
+            <discoveryProtocol>SIMPLE</discoveryProtocol>
+            <leaseDuration>
+              <sec>DURATION_INFINITE</sec>
+            </leaseDuration>
+            <leaseAnnouncement>
+              <sec>5</sec>
+              <nanosec>0</nanosec>
+            </leaseAnnouncement>
+            <discoveryServer_peer_list>
+              <!-- 添加Discovery Server作为对等点 -->
+              <locator>
+                <address>192.168.1.101</address>
+                <port>7410</port>
+              </locator>
+            </discoveryServer_peer_list>
+          </discovery_config>
+        </builtin>
+      </rtps>
+    </participant>
+
+</profiles>

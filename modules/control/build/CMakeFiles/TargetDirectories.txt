@@ -1,0 +1,6 @@
+/home/oem/legion_framework/modules/control/build/CMakeFiles/uninstall.dir
+/home/oem/legion_framework/modules/control/build/CMakeFiles/control_uninstall.dir
+/home/oem/legion_framework/modules/control/build/CMakeFiles/control.dir
+/home/oem/legion_framework/modules/control/build/CMakeFiles/test.dir
+/home/oem/legion_framework/modules/control/build/CMakeFiles/edit_cache.dir
+/home/oem/legion_framework/modules/control/build/CMakeFiles/rebuild_cache.dir

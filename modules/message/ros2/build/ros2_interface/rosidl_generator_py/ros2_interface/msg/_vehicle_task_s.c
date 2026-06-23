@@ -1,0 +1,207 @@
+// generated from rosidl_generator_py/resource/_idl_support.c.em
+// with input from ros2_interface:msg/VehicleTask.idl
+// generated code does not contain a copyright notice
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#include <Python.h>
+#include <stdbool.h>
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-function"
+#endif
+#include "numpy/ndarrayobject.h"
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+#include "rosidl_runtime_c/visibility_control.h"
+#include "ros2_interface/msg/detail/vehicle_task__struct.h"
+#include "ros2_interface/msg/detail/vehicle_task__functions.h"
+
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
+
+ROSIDL_GENERATOR_C_EXPORT
+bool ros2_interface__msg__vehicle_task__convert_from_py(PyObject * _pymsg, void * _ros_message)
+{
+  // check that the passed message is of the expected Python class
+  {
+    char full_classname_dest[45];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
+    }
+    assert(strncmp("ros2_interface.msg._vehicle_task.VehicleTask", full_classname_dest, 44) == 0);
+  }
+  ros2_interface__msg__VehicleTask * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // clean_up_ctrl
+    PyObject * field = PyObject_GetAttrString(_pymsg, "clean_up_ctrl");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->clean_up_ctrl = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // watering_ctrl
+    PyObject * field = PyObject_GetAttrString(_pymsg, "watering_ctrl");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->watering_ctrl = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // water_add_ctrl
+    PyObject * field = PyObject_GetAttrString(_pymsg, "water_add_ctrl");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->water_add_ctrl = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // hatch_unlock_ctrl
+    PyObject * field = PyObject_GetAttrString(_pymsg, "hatch_unlock_ctrl");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->hatch_unlock_ctrl = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // decorative_light_ctrl
+    PyObject * field = PyObject_GetAttrString(_pymsg, "decorative_light_ctrl");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->decorative_light_ctrl = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+
+  return true;
+}
+
+ROSIDL_GENERATOR_C_EXPORT
+PyObject * ros2_interface__msg__vehicle_task__convert_to_py(void * raw_ros_message)
+{
+  /* NOTE(esteve): Call constructor of VehicleTask */
+  PyObject * _pymessage = NULL;
+  {
+    PyObject * pymessage_module = PyImport_ImportModule("ros2_interface.msg._vehicle_task");
+    assert(pymessage_module);
+    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "VehicleTask");
+    assert(pymessage_class);
+    Py_DECREF(pymessage_module);
+    _pymessage = PyObject_CallObject(pymessage_class, NULL);
+    Py_DECREF(pymessage_class);
+    if (!_pymessage) {
+      return NULL;
+    }
+  }
+  ros2_interface__msg__VehicleTask * ros_message = (ros2_interface__msg__VehicleTask *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // clean_up_ctrl
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->clean_up_ctrl);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "clean_up_ctrl", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // watering_ctrl
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->watering_ctrl);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "watering_ctrl", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // water_add_ctrl
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->water_add_ctrl);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "water_add_ctrl", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // hatch_unlock_ctrl
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->hatch_unlock_ctrl);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "hatch_unlock_ctrl", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // decorative_light_ctrl
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->decorative_light_ctrl);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "decorative_light_ctrl", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+
+  // ownership of _pymessage is transferred to the caller
+  return _pymessage;
+}

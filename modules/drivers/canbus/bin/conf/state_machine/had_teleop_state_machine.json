@@ -1,0 +1,48 @@
+{
+    "had_teleop_state_machine": [
+        {
+            "StateName": "Start",
+            "Transition": [
+                {
+                    "Key": "started",
+                    "Target": "Init"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "Init",
+            "Transition": [
+                {
+                    "Key": "teleop_take_over",
+                    "Target": "TeleopTakeOver"
+                },
+                {
+                    "Key": "had_take_over",
+                    "Target": "HadTakeOver"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "HadTakeOver",
+            "Transition": [
+                {
+                    "Key": "teleop_take_over",
+                    "Target": "TeleopTakeOver"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "TeleopTakeOver",
+            "Transition": [
+                {
+                    "Key": "had_take_over",
+                    "Target": "HadTakeOver"
+                }
+            ],
+            "Parent": "null"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+ #ifndef __VehicleTask__idl__
+#define __VehicleTask__idl__
+#include "Header.idl"
+module ros2_interface{
+ module msg{
+  struct VehicleTask{
+    ros2_interface::msg::Header   _header;
+    int32   _clean_up_ctrl;
+    int32   _watering_ctrl;
+    int32   _water_add_ctrl;
+    int32   _hatch_unlock_ctrl;
+    int32   _decorative_light_ctrl;
+  };
+ };
+}; 
+#endif

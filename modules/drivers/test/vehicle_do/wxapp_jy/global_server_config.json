@@ -1,0 +1,103 @@
+{
+  "vehicle": {
+    "vehicle_id": "V10000005",
+    "software_version": "1.0.1"
+  },
+  "paths": {
+    "traj_path": "./traj",
+    "map_path": "./map",
+    "location_map_path": "/media/data/map/",
+    "location_process_path": "/home/beacon/legion_framework/modules/drivers/location/slam_tool_ws/",
+    "location_path": "/home/beacon/legion_framework/modules/drivers/location/2d_mapping_location/",
+    "log_path": "/home/beacon/legion_framework/supervisor_logs",
+    "config": "./wx_server_config.json"
+  },
+  "websocket": {
+    "control": {
+      "host": "0.0.0.0",
+      "port": 8282,
+      "description": "控制端口，用于接收车辆控制指令"
+    },
+    "data": {
+      "host": "0.0.0.0",
+      "port": 8283,
+      "description": "数据端口，用于双向数据传输"
+    }
+  },
+  "ros": {
+    "version": "ros2",
+    "node_name": "wx_app_driver",
+    "publishers": {
+      "/driver/wx_app_contrll": {
+        "queue_size": 10,
+        "description": "车辆控制事件"
+      },
+      "/task_to_cloud": {
+        "queue_size": 2,
+        "description": "任务状态上报云端"
+      },
+      "/error_code": {
+        "queue_size": 1,
+        "description": "错误码发布"
+      },
+      "/initialpose": {
+        "queue_size": 1,
+        "description": "定位初始化"
+      },
+      "/end_loop": {
+        "queue_size": 1,
+        "description": "结束循环指令"
+      },
+      "/traj_manage": {
+        "queue_size": 2,
+        "description": "轨迹管理"
+      },
+      "/legion_bridge/RoutingRequest": {
+        "queue_size": 10,
+        "description": "路径规划请求"
+      }
+    },
+    "subscribers": {
+      "/localization/global_fusion/Location": {
+        "description": "定位信息"
+      },
+      "/drivers/canbus/Chassis": {
+        "description": "底盘状态"
+      },
+      "/drivers/canbus/Vehicle": {
+        "description": "车辆状态（电池、清扫、洒水等）"
+      },
+      "/imu/Event": {
+        "description": "IMU事件"
+      },
+      "/planning/ADCTrajectory": {
+        "description": "自动驾驶轨迹"
+      },
+      "/warning_manager": {
+        "description": "告警管理器",
+        "enabled": false
+      }
+    }
+  },
+  "system": {
+    "sudo_password": "titan4",
+    "supervisor_services": {
+      "location_2d": "DRIVER:location_2d",
+      "location_3d": "DRIVER:location_3d",
+      "mapping": "DRIVER:mapping"
+    },
+    "debug_mode": true,
+    "enable_map_upload": false,
+    "enable_task_upload": true,
+    "enable_logging": false
+  },
+  "mqtt": {
+    "broker": "smart.dev.usharingtech.com",
+    "port": 1883,
+    "topic_pub": "s1-position",
+    "topic_sub": "s1-control-from-cloud",
+    "client_pub_id": "s1_pub",
+    "client_sub_id": "s1_sub",
+    "enabled": false
+  }
+}

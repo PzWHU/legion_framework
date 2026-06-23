@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/Fault.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/Time.idl"
+
+module ros2_interface {
+  module msg {
+    struct Fault {
+      @verbatim (language="comment", text=
+        "时间戳")
+      ros2_interface::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "故障码")
+      uint64 code;
+
+      @verbatim (language="comment", text=
+        "原因")
+      string reason;
+    };
+  };
+};

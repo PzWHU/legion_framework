@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" upload="false" generator="JOSM">
+  <node id="-25479" action="modify" lat="32.00018698018" lon="117.99993380783" />
+  <node id="26" action="modify" version="1" lat="32.0000143121" lon="118.00005571605" />
+  <node id="27" action="modify" version="1" lat="31.9999807302" lon="118.00004325853" />
+  <node id="29" action="modify" version="1" lat="32.00001377005" lon="118.00006200474" />
+  <node id="30" action="modify" version="1" lat="31.99998057884" lon="118.0000475201" />
+  <node id="32" action="modify" version="1" lat="32.00001330094" lon="118.00006744732" />
+  <node id="33" action="modify" version="1" lat="31.99998026559" lon="118.00005294" />
+  <node id="35" action="modify" version="1" lat="32.00001275887" lon="118.00007373623" />
+  <node id="36" action="modify" version="1" lat="31.99998011688" lon="118.00005863516" />
+  <node id="38" action="modify" version="1" lat="32.00001243177" lon="118.00007834086" />
+  <node id="39" action="modify" version="1" lat="31.99997997645" lon="118.00006401331" />
+  <node id="41" action="modify" version="1" lat="32.00001217209" lon="118.00008199635" />
+  <node id="42" action="modify" version="1" lat="31.99997979813" lon="118.00007084233" />
+  <node id="44" action="modify" version="1" lat="32.00001186841" lon="118.00008627116" />
+  <node id="45" action="modify" version="1" lat="31.99997956185" lon="118.00007989078" />
+  <node id="47" action="modify" version="1" lat="32.00001160849" lon="118.00008993003" />
+  <node id="48" action="modify" version="1" lat="31.9999794026" lon="118.00008598958" />
+  <node id="50" action="modify" version="1" lat="32.00001129629" lon="118.00009432483" />
+  <node id="51" action="modify" version="1" lat="31.99997891961" lon="118.00009264611" />
+  <node id="53" action="modify" version="1" lat="32.00001104194" lon="118.00009790536" />
+  <node id="54" action="modify" version="1" lat="31.99997850964" lon="118.0000982962" />
+  <node id="56" action="modify" version="1" lat="32.00001060038" lon="118.00010244" />
+  <node id="57" action="modify" version="1" lat="31.99997805245" lon="118.00010459714" />
+  <node id="59" action="modify" version="1" lat="32.00000999758" lon="118.00010863046" />
+  <node id="60" action="modify" version="1" lat="31.99997780084" lon="118.00010806477" />
+  <node id="62" action="modify" version="1" lat="32.00000987163" lon="118.00011406335" />
+  <node id="63" action="modify" version="1" lat="31.99997741274" lon="118.00011341345" />
+  <node id="65" action="modify" version="1" lat="32.00001063675" lon="118.00011979925" />
+  <node id="66" action="modify" version="1" lat="31.9999769954" lon="118.00011916524" />
+  <node id="68" action="modify" version="1" lat="32.00001395165" lon="118.00012662082" />
+  <node id="69" action="modify" version="1" lat="31.99997657273" lon="118.00012499034" />
+  <node id="71" action="modify" version="1" lat="32.00001690172" lon="118.00013082401" />
+  <node id="72" action="modify" version="1" lat="31.99997649586" lon="118.0001319273" />
+  <node id="74" action="modify" version="1" lat="32.00001946003" lon="118.00013282537" />
+  <node id="75" action="modify" version="1" lat="31.99997747676" lon="118.00013894897" />
+  <node id="77" action="modify" version="1" lat="32.00002261342" lon="118.00013529226" />
+  <node id="78" action="modify" version="1" lat="31.99997824855" lon="118.00014687942" />
+  <node id="80" action="modify" version="1" lat="32.00002712082" lon="118.00013715465" />
+  <node id="81" action="modify" version="1" lat="31.99998079144" lon="118.00015729415" />
+  <node id="83" action="modify" version="1" lat="32.00003628894" lon="118.00013910501" />
+  <node id="84" action="modify" version="1" lat="31.9999873943" lon="118.0001761973" />
+  <node id="90" action="modify" version="1" lat="32.00004282969" lon="118.00014049644" />
+  <node id="91" action="modify" version="1" lat="31.99999379601" lon="118.00018791143" />
+  <node id="93" action="modify" version="1" lat="32.0000464876" lon="118.0001412746" />
+  <node id="94" action="modify" version="1" lat="31.99999866369" lon="118.00019487058" />
+  <node id="96" action="modify" version="1" lat="32.00004929291" lon="118.00014188534" />
+  <node id="97" action="modify" version="1" lat="32.0000060963" lon="118.0002013644" />
+  <node id="99" action="modify" version="1" lat="32.00005201283" lon="118.00014247749" />
+  <node id="100" action="modify" version="1" lat="32.00001221706" lon="118.00020540696" />
+  <node id="102" action="modify" version="1" lat="32.00005509267" lon="118.000143148" />
+  <node id="103" action="modify" version="1" lat="32.00001968262" lon="118.00020873364" />
+  <node id="105" action="modify" version="1" lat="32.00005853583" lon="118.00014389761" />
+  <node id="106" action="modify" version="1" lat="32.00002695674" lon="118.00021046381" />
+  <node id="108" action="modify" version="1" lat="32.0000625714" lon="118.00014477619" />
+  <node id="109" action="modify" version="1" lat="32.00003198989" lon="118.00021118355" />
+  <node id="111" action="modify" version="1" lat="32.00006618706" lon="118.00014556335" />
+  <node id="112" action="modify" version="1" lat="32.00004153621" lon="118.00021080172" />
+  <node id="114" action="modify" version="1" lat="32.00006869808" lon="118.00014611002" />
+  <node id="115" action="modify" version="1" lat="32.00004797863" lon="118.00021026641" />
+  <node id="117" action="modify" version="1" lat="32.00007141587" lon="118.00014622284" />
+  <node id="118" action="modify" version="1" lat="32.00005527332" lon="118.00020966028" />
+  <node id="120" action="modify" version="1" lat="32.00007424171" lon="118.00014658679" />
+  <node id="121" action="modify" version="1" lat="32.00006218082" lon="118.0002095558" />
+  <node id="123" action="modify" version="1" lat="32.00008078151" lon="118.00014689932" />
+  <node id="124" action="modify" version="1" lat="32.00007682102" lon="118.00020933435" />
+  <node id="130" action="modify" version="1" lat="32.00008689922" lon="118.00014719168" />
+  <node id="131" action="modify" version="1" lat="32.00009301414" lon="118.00020778235" />
+  <node id="133" action="modify" version="1" lat="32.00009505656" lon="118.00014687921" />
+  <node id="134" action="modify" version="1" lat="32.00010105506" lon="118.00020432661" />
+  <node id="136" action="modify" version="1" lat="32.00009991074" lon="118.00014593598" />
+  <node id="137" action="modify" version="1" lat="32.0001074833" lon="118.00020010427" />
+  <node id="139" action="modify" version="1" lat="32.00010529067" lon="118.00014481951" />
+  <node id="140" action="modify" version="1" lat="32.00011261198" lon="118.00019673554" />
+  <node id="142" action="modify" version="1" lat="32.00011081346" lon="118.00014367339" />
+  <node id="143" action="modify" version="1" lat="32.00011906445" lon="118.00019249729" />
+  <node id="145" action="modify" version="1" lat="32.00011456481" lon="118.00014289489" />
+  <node id="146" action="modify" version="1" lat="32.00012488305" lon="118.00018867539" />
+  <node id="148" action="modify" version="1" lat="32.00011747173" lon="118.00014229163" />
+  <node id="149" action="modify" version="1" lat="32.00013020925" lon="118.00018552693" />
+  <node id="151" action="modify" version="1" lat="32.00012152362" lon="118.00014145075" />
+  <node id="152" action="modify" version="1" lat="32.00013388852" lon="118.00018249258" />
+  <node id="154" action="modify" version="1" lat="32.00013002336" lon="118.0001383655" />
+  <node id="155" action="modify" version="1" lat="32.0001392606" lon="118.00017806213" />
+  <node id="157" action="modify" version="1" lat="32.00013915274" lon="118.0001344125" />
+  <node id="158" action="modify" version="1" lat="32.00014544621" lon="118.00017296075" />
+  <node id="160" action="modify" version="1" lat="32.00014479623" lon="118.00012991271" />
+  <node id="161" action="modify" version="1" lat="32.00015134339" lon="118.00016809725" />
+  <node id="163" action="modify" version="1" lat="32.00014964411" lon="118.00012604729" />
+  <node id="164" action="modify" version="1" lat="32.00015859333" lon="118.0001621181" />
+  <node id="166" action="modify" version="1" lat="32.00015469235" lon="118.00012144366" />
+  <node id="167" action="modify" version="1" lat="32.00016490562" lon="118.00015691224" />
+  <node id="169" action="modify" version="1" lat="32.00015932386" lon="118.00011703377" />
+  <node id="170" action="modify" version="1" lat="32.00017019295" lon="118.00015255169" />
+  <node id="172" action="modify" version="1" lat="32.00016237293" lon="118.00011428598" />
+  <node id="173" action="modify" version="1" lat="32.00017461686" lon="118.00014890321" />
+  <node id="175" action="modify" version="1" lat="32.00016627256" lon="118.00011077168" />
+  <node id="176" action="modify" version="1" lat="32.00017771671" lon="118.00014634671" />
+  <node id="178" action="modify" version="1" lat="32.00017305827" lon="118.00010465648" />
+  <node id="179" action="modify" version="1" lat="32.00018248259" lon="118.0001424162" />
+  <node id="181" action="modify" version="1" lat="32.00017743673" lon="118.00010060806" />
+  <node id="182" action="modify" version="1" lat="32.0001917141" lon="118.00013473494" />
+  <node id="184" action="modify" version="1" lat="32.00018218998" lon="118.0000958985" />
+  <node id="185" action="modify" version="1" lat="32.00019646508" lon="118.0001307818" />
+  <node id="187" action="modify" version="1" lat="32.00018612432" lon="118.00009265134" />
+  <node id="188" action="modify" version="1" lat="32.00020089744" lon="118.00012709376" />
+  <node id="190" action="modify" version="1" lat="32.00019024727" lon="118.00008924852" />
+  <node id="191" action="modify" version="1" lat="32.00020489995" lon="118.00012376339" />
+  <node id="193" action="modify" version="1" lat="32.00019607673" lon="118.00008443724" />
+  <node id="194" action="modify" version="1" lat="32.00021024392" lon="118.00011931684" />
+  <node id="196" action="modify" version="1" lat="32.00020222045" lon="118.0000793666" />
+  <node id="197" action="modify" version="1" lat="32.00021661559" lon="118.00011401516" />
+  <node id="199" action="modify" version="1" lat="32.00020789731" lon="118.00007468127" />
+  <node id="200" action="modify" version="1" lat="32.00022201176" lon="118.00010952517" />
+  <node id="202" action="modify" version="1" lat="32.00021112211" lon="118.00007201972" />
+  <node id="203" action="modify" version="1" lat="32.0002274862" lon="118.00010466073" />
+  <node id="205" action="modify" version="1" lat="32.00021474683" lon="118.00006902811" />
+  <node id="206" action="modify" version="1" lat="32.00023251088" lon="118.00010019595" />
+  <node id="208" action="modify" version="1" lat="32.00021835874" lon="118.0000668634" />
+  <node id="209" action="modify" version="1" lat="32.00023551376" lon="118.00009752768" />
+  <node id="211" action="modify" version="1" lat="32.00022211745" lon="118.00006461071" />
+  <node id="212" action="modify" version="1" lat="32.00023865651" lon="118.00009425189" />
+  <node id="214" action="modify" version="1" lat="32.00022629702" lon="118.00006210577" />
+  <node id="215" action="modify" version="1" lat="32.0002410952" lon="118.00009170997" />
+  <node id="217" action="modify" version="1" lat="32.0002283852" lon="118.00006085428" />
+  <node id="218" action="modify" version="1" lat="32.00024625119" lon="118.00008633572" />
+  <node id="220" action="modify" version="1" lat="32.00023313496" lon="118.00005800762" />
+  <node id="221" action="modify" version="1" lat="32.00025059669" lon="118.00008198856" />
+  <node id="223" action="modify" version="1" lat="32.00023671237" lon="118.00005573975" />
+  <node id="224" action="modify" version="1" lat="32.00025589484" lon="118.00007668838" />
+  <node id="226" action="modify" version="1" lat="32.00024007834" lon="118.00005360593" />
+  <node id="227" action="modify" version="1" lat="32.00025980457" lon="118.00007289409" />
+  <node id="229" action="modify" version="1" lat="32.00024268366" lon="118.00005185598" />
+  <node id="230" action="modify" version="1" lat="32.00026419398" lon="118.00006863429" />
+  <node id="232" action="modify" version="1" lat="32.00024647275" lon="118.00004931091" />
+  <node id="233" action="modify" version="1" lat="32.00026820338" lon="118.00006474327" />
+  <node id="235" action="modify" version="1" lat="32.00024993472" lon="118.00004656531" />
+  <node id="236" action="modify" version="1" lat="32.00027323102" lon="118.00006016387" />
+  <node id="238" action="modify" version="1" lat="32.00025338654" lon="118.00004241078" />
+  <node id="239" action="modify" version="1" lat="32.00027850502" lon="118.00005371788" />
+  <node id="241" action="modify" version="1" lat="32.00025615806" lon="118.00003913125" />
+  <node id="242" action="modify" version="1" lat="32.0002806051" lon="118.00005115113" />
+  <node id="244" action="modify" version="1" lat="32.00025948926" lon="118.00003366589" />
+  <node id="245" action="modify" version="1" lat="32.00028408239" lon="118.00004690111" />
+  <node id="247" action="modify" version="1" lat="32.0002646258" lon="118.0000208052" />
+  <node id="248" action="modify" version="1" lat="32.00029256793" lon="118.00003263954" />
+  <node id="250" action="modify" version="1" lat="32.00026654049" lon="118.00000954537" />
+  <node id="251" action="modify" version="1" lat="32.00029599321" lon="118.00002028053" />
+  <node id="253" action="modify" version="1" lat="32.00026631404" lon="118.00000101272" />
+  <node id="254" action="modify" version="1" lat="32.00029600283" lon="118.0000148182" />
+  <node id="256" action="modify" version="1" lat="32.00026535478" lon="117.999990121" />
+  <node id="257" action="modify" version="1" lat="32.00029635791" lon="118.00000809032" />
+  <node id="259" action="modify" version="1" lat="32.000263795" lon="117.9999843076" />
+  <node id="260" action="modify" version="1" lat="32.00029488757" lon="117.99999441553" />
+  <node id="262" action="modify" version="1" lat="32.00026111696" lon="117.99997803323" />
+  <node id="263" action="modify" version="1" lat="32.00029418518" lon="117.99998797801" />
+  <node id="265" action="modify" version="1" lat="32.0002589997" lon="117.99997307273" />
+  <node id="266" action="modify" version="1" lat="32.00029367536" lon="117.99998280829" />
+  <node id="268" action="modify" version="1" lat="32.00025789497" lon="117.99997048447" />
+  <node id="269" action="modify" version="1" lat="32.00029147046" lon="117.99997279827" />
+  <node id="271" action="modify" version="1" lat="32.00025712973" lon="117.9999686916" />
+  <node id="272" action="modify" version="1" lat="32.00028657095" lon="117.99996231479" />
+  <node id="274" action="modify" version="1" lat="32.00025569059" lon="117.99996720649" />
+  <node id="275" action="modify" version="1" lat="32.00028188659" lon="117.99995583919" />
+  <node id="277" action="modify" version="1" lat="32.00025361038" lon="117.99996500156" />
+  <node id="278" action="modify" version="1" lat="32.00027573951" lon="117.99994998598" />
+  <node id="280" action="modify" version="1" lat="32.00025018365" lon="117.999961755" />
+  <node id="281" action="modify" version="1" lat="32.00027177886" lon="117.99994643094" />
+  <node id="283" action="modify" version="1" lat="32.00024562649" lon="117.99995860777" />
+  <node id="284" action="modify" version="1" lat="32.0002675599" lon="117.99994260894" />
+  <node id="286" action="modify" version="1" lat="32.00024244389" lon="117.99995626782" />
+  <node id="287" action="modify" version="1" lat="32.00026218174" lon="117.9999384453" />
+  <node id="289" action="modify" version="1" lat="32.00023970826" lon="117.99995497098" />
+  <node id="290" action="modify" version="1" lat="32.00025552384" lon="117.99993460124" />
+  <node id="292" action="modify" version="1" lat="32.00023696807" lon="117.9999539903" />
+  <node id="293" action="modify" version="1" lat="32.00024954384" lon="117.99993209062" />
+  <node id="295" action="modify" version="1" lat="32.00023230327" lon="117.99995226626" />
+  <node id="296" action="modify" version="1" lat="32.00024417505" lon="117.99993009521" />
+  <node id="298" action="modify" version="1" lat="32.00022710997" lon="117.99995063269" />
+  <node id="299" action="modify" version="1" lat="32.00023784891" lon="117.99992747946" />
+  <node id="301" action="modify" version="1" lat="32.00022123075" lon="117.99994903887" />
+  <node id="302" action="modify" version="1" lat="32.00023227898" lon="117.99992517639" />
+  <node id="304" action="modify" version="1" lat="32.000217831" lon="117.99994811723" />
+  <node id="305" action="modify" version="1" lat="32.0002256197" lon="117.999923565" />
+  <node id="307" action="modify" version="1" lat="32.00021176151" lon="117.99994630882" />
+  <node id="308" action="modify" version="1" lat="32.00022253221" lon="117.9999228179" />
+  <node id="310" action="modify" version="1" lat="32.00020918598" lon="117.99994600279" />
+  <node id="311" action="modify" version="1" lat="32.00021530542" lon="117.9999214684" />
+  <node id="313" action="modify" version="1" lat="32.00020376262" lon="117.99994535839" />
+  <node id="314" action="modify" version="1" lat="32.00021051885" lon="117.99992098759" />
+  <node id="316" action="modify" version="1" lat="32.00019467058" lon="117.99994569139" />
+  <node id="317" action="modify" version="1" lat="32.00020581044" lon="117.99992033583" />
+  <node id="319" action="modify" version="1" lat="32.00018752267" lon="117.99994549631" />
+  <node id="320" action="modify" version="1" lat="32.00019607575" lon="117.99991968363" />
+  <node id="322" action="modify" version="1" lat="32.00017990084" lon="117.9999452883" />
+  <node id="323" action="modify" version="1" lat="32.00018718353" lon="117.9999191676" />
+  <node id="325" action="modify" version="1" lat="32.00017332013" lon="117.99994510871" />
+  <node id="326" action="modify" version="1" lat="32.00017783754" lon="117.99991862524" />
+  <node id="328" action="modify" version="1" lat="32.00016953193" lon="117.99994500533" />
+  <node id="329" action="modify" version="1" lat="32.00017230052" lon="117.99991830392" />
+  <node id="331" action="modify" version="1" lat="32.00016425906" lon="117.99994486142" />
+  <node id="332" action="modify" version="1" lat="32.00016793815" lon="117.99991805076" />
+  <node id="334" action="modify" version="1" lat="32.00015891293" lon="117.99994471552" />
+  <node id="335" action="modify" version="1" lat="32.00016137452" lon="117.99991766986" />
+  <node id="337" action="modify" version="1" lat="32.00015515365" lon="117.99994461293" />
+  <node id="338" action="modify" version="1" lat="32.00015603046" lon="117.99991735974" />
+  <node id="340" action="modify" version="1" lat="32.00014823868" lon="117.99994442421" />
+  <node id="341" action="modify" version="1" lat="32.00015016253" lon="117.99991701921" />
+  <node id="343" action="modify" version="1" lat="32.00014301289" lon="117.99994428159" />
+  <node id="344" action="modify" version="1" lat="32.00014529701" lon="117.99991673686" />
+  <node id="346" action="modify" version="1" lat="32.00013824063" lon="117.99994415135" />
+  <node id="347" action="modify" version="1" lat="32.00014077808" lon="117.99991647461" />
+  <node id="349" action="modify" version="1" lat="32.00013318405" lon="117.99994401335" />
+  <node id="350" action="modify" version="1" lat="32.00013570983" lon="117.9999161805" />
+  <node id="352" action="modify" version="1" lat="32.00012779461" lon="117.99994386627" />
+  <node id="353" action="modify" version="1" lat="32.00013023731" lon="117.99991586292" />
+  <node id="355" action="modify" version="1" lat="32.000122874" lon="117.99994373198" />
+  <node id="356" action="modify" version="1" lat="32.0001257077" lon="117.99991560005" />
+  <node id="358" action="modify" version="1" lat="32.00011880517" lon="117.99994362094" />
+  <node id="359" action="modify" version="1" lat="32.00011980852" lon="117.99991525772" />
+  <node id="361" action="modify" version="1" lat="32.00011263093" lon="117.99994345244" />
+  <node id="362" action="modify" version="1" lat="32.00011437314" lon="117.99991494229" />
+  <node id="364" action="modify" version="1" lat="32.00010771839" lon="117.99994331837" />
+  <node id="365" action="modify" version="1" lat="32.0001089957" lon="117.99991463023" />
+  <node id="367" action="modify" version="1" lat="32.00010215559" lon="117.99994316656" />
+  <node id="368" action="modify" version="1" lat="32.00010406948" lon="117.99991434435" />
+  <node id="370" action="modify" version="1" lat="32.00009687665" lon="117.99994302249" />
+  <node id="371" action="modify" version="1" lat="32.00009980035" lon="117.99991409661" />
+  <node id="373" action="modify" version="1" lat="32.00009265514" lon="117.99994290728" />
+  <node id="374" action="modify" version="1" lat="32.00009484865" lon="117.99991380925" />
+  <node id="376" action="modify" version="1" lat="32.00008782998" lon="117.99994277559" />
+  <node id="377" action="modify" version="1" lat="32.00009043652" lon="117.99991355321" />
+  <node id="379" action="modify" version="1" lat="32.00008257889" lon="117.99994263229" />
+  <node id="380" action="modify" version="1" lat="32.00008497456" lon="117.99991323624" />
+  <node id="382" action="modify" version="1" lat="32.00007673841" lon="117.99994247289" />
+  <node id="383" action="modify" version="1" lat="32.00007899809" lon="117.99991288942" />
+  <node id="385" action="modify" version="1" lat="32.00007176307" lon="117.99994284155" />
+  <node id="386" action="modify" version="1" lat="32.00007436048" lon="117.99991262029" />
+  <node id="388" action="modify" version="1" lat="32.00006742867" lon="117.99994316271" />
+  <node id="389" action="modify" version="1" lat="32.00006977683" lon="117.99991203229" />
+  <node id="391" action="modify" version="1" lat="32.00006378313" lon="117.99994386206" />
+  <node id="392" action="modify" version="1" lat="32.00006206848" lon="117.99991104346" />
+  <node id="394" action="modify" version="1" lat="32.00006113264" lon="117.99994470623" />
+  <node id="395" action="modify" version="1" lat="32.000054613" lon="117.99991077063" />
+  <node id="397" action="modify" version="1" lat="32.00005604775" lon="117.99994632575" />
+  <node id="398" action="modify" version="1" lat="32.00004920331" lon="117.99991035119" />
+  <node id="400" action="modify" version="1" lat="32.00005268744" lon="117.99994762339" />
+  <node id="401" action="modify" version="1" lat="32.00004452822" lon="117.99991075475" />
+  <node id="403" action="modify" version="1" lat="32.00004969143" lon="117.99994906565" />
+  <node id="404" action="modify" version="1" lat="32.00003821982" lon="117.99991186783" />
+  <node id="406" action="modify" version="1" lat="32.00004738357" lon="117.99995064071" />
+  <node id="407" action="modify" version="1" lat="32.00003164752" lon="117.99991399229" />
+  <node id="409" action="modify" version="1" lat="32.00004527394" lon="117.9999523315" />
+  <node id="410" action="modify" version="1" lat="32.00002483253" lon="117.99991770588" />
+  <node id="412" action="modify" version="1" lat="32.00004370262" lon="117.99995369886" />
+  <node id="413" action="modify" version="1" lat="32.0000195732" lon="117.99992156864" />
+  <node id="415" action="modify" version="1" lat="32.00004229056" lon="117.99995516173" />
+  <node id="416" action="modify" version="1" lat="32.00001376457" lon="117.99992764902" />
+  <node id="418" action="modify" version="1" lat="32.00003989924" lon="117.99995792401" />
+  <node id="419" action="modify" version="1" lat="32.00000934329" lon="117.99993387298" />
+  <node id="421" action="modify" version="1" lat="32.00003770054" lon="117.99996071814" />
+  <node id="422" action="modify" version="1" lat="32.00000551016" lon="117.99994084695" />
+  <node id="424" action="modify" version="1" lat="32.0000355459" lon="117.99996452462" />
+  <node id="425" action="modify" version="1" lat="32.00000239231" lon="117.99994773772" />
+  <node id="427" action="modify" version="1" lat="32.00003395198" lon="117.99996811255" />
+  <node id="430" action="modify" version="1" lat="32.00003122807" lon="117.9999728039" />
+  <node id="431" action="modify" version="1" lat="31.99999810764" lon="117.99995803757" />
+  <node id="433" action="modify" version="1" lat="32.00002879312" lon="117.99997704647" />
+  <node id="434" action="modify" version="1" lat="31.99999572832" lon="117.99996424652" />
+  <node id="436" action="modify" version="1" lat="32.00002699791" lon="117.9999802745" />
+  <node id="437" action="modify" version="1" lat="31.99999287263" lon="117.99997294839" />
+  <node id="439" action="modify" version="1" lat="32.00002493413" lon="117.99998485469" />
+  <node id="440" action="modify" version="1" lat="31.99999147141" lon="117.99997718309" />
+  <node id="442" action="modify" version="1" lat="32.00002326357" lon="117.99998856219" />
+  <node id="443" action="modify" version="1" lat="31.9999903097" lon="117.99997991205" />
+  <node id="445" action="modify" version="1" lat="32.00002177611" lon="117.99999186335" />
+  <node id="446" action="modify" version="1" lat="31.99998894186" lon="117.99998313815" />
+  <node id="448" action="modify" version="1" lat="32.00001912374" lon="117.99999896851" />
+  <node id="449" action="modify" version="1" lat="31.99998796962" lon="117.99998681351" />
+  <node id="451" action="modify" version="1" lat="32.00001727855" lon="118.00000450327" />
+  <node id="452" action="modify" version="1" lat="31.99998691598" lon="117.99999402258" />
+  <node id="454" action="modify" version="1" lat="32.00001620559" lon="118.00000990512" />
+  <node id="455" action="modify" version="1" lat="31.99998593327" lon="118.00000074628" />
+  <node id="457" action="modify" version="1" lat="32.00001573964" lon="118.00001631783" />
+  <node id="458" action="modify" version="1" lat="31.99998559609" lon="118.00000305332" />
+  <node id="460" action="modify" version="1" lat="32.0000153544" lon="118.00002161985" />
+  <node id="461" action="modify" version="1" lat="31.9999848115" lon="118.0000084215" />
+  <node id="463" action="modify" version="1" lat="32.0000152779" lon="118.00002692846" />
+  <node id="464" action="modify" version="1" lat="31.99998396938" lon="118.0000141833" />
+  <node id="466" action="modify" version="1" lat="32.00001518581" lon="118.00003331971" />
+  <node id="467" action="modify" version="1" lat="31.99998320985" lon="118.00001938005" />
+  <node id="469" action="modify" version="1" lat="32.00001505472" lon="118.00003906205" />
+  <node id="470" action="modify" version="1" lat="31.99998226849" lon="118.00002582084" />
+  <node id="472" action="modify" version="1" lat="32.0000149218" lon="118.00004488498" />
+  <node id="473" action="modify" version="1" lat="31.9999815481" lon="118.0000307498" />
+  <node id="475" action="modify" version="1" lat="32.00001480513" lon="118.00004999599" />
+  <node id="476" action="modify" version="1" lat="31.9999812191" lon="118.00003644228" />
+  <way id="-883" action="modify">
+    <nd ref="123" />
+    <nd ref="130" />
+    <nd ref="133" />
+    <nd ref="136" />
+    <nd ref="139" />
+    <nd ref="142" />
+    <nd ref="145" />
+    <nd ref="148" />
+    <nd ref="151" />
+    <nd ref="154" />
+    <nd ref="157" />
+    <nd ref="160" />
+    <nd ref="163" />
+    <nd ref="166" />
+    <nd ref="169" />
+    <nd ref="172" />
+    <nd ref="175" />
+    <nd ref="178" />
+    <nd ref="181" />
+    <nd ref="184" />
+    <nd ref="187" />
+    <nd ref="190" />
+    <nd ref="193" />
+    <nd ref="196" />
+    <nd ref="199" />
+    <nd ref="202" />
+    <nd ref="205" />
+    <nd ref="208" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-884" action="modify">
+    <nd ref="208" />
+    <nd ref="211" />
+    <nd ref="214" />
+    <nd ref="217" />
+    <nd ref="220" />
+    <nd ref="223" />
+    <nd ref="226" />
+    <nd ref="229" />
+    <nd ref="232" />
+    <nd ref="235" />
+    <nd ref="238" />
+    <nd ref="241" />
+    <nd ref="244" />
+    <nd ref="247" />
+    <nd ref="250" />
+    <nd ref="253" />
+    <nd ref="256" />
+    <nd ref="259" />
+    <nd ref="262" />
+    <nd ref="265" />
+    <nd ref="268" />
+    <nd ref="271" />
+    <nd ref="274" />
+    <nd ref="277" />
+    <nd ref="280" />
+    <nd ref="283" />
+    <nd ref="286" />
+    <nd ref="289" />
+    <nd ref="292" />
+    <nd ref="295" />
+    <nd ref="298" />
+    <nd ref="301" />
+    <nd ref="304" />
+    <nd ref="307" />
+    <nd ref="310" />
+    <nd ref="313" />
+    <nd ref="316" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-885" action="modify">
+    <nd ref="124" />
+    <nd ref="131" />
+    <nd ref="134" />
+    <nd ref="137" />
+    <nd ref="140" />
+    <nd ref="143" />
+    <nd ref="146" />
+    <nd ref="149" />
+    <nd ref="152" />
+    <nd ref="155" />
+    <nd ref="158" />
+    <nd ref="161" />
+    <nd ref="164" />
+    <nd ref="167" />
+    <nd ref="170" />
+    <nd ref="173" />
+    <nd ref="176" />
+    <nd ref="179" />
+    <nd ref="182" />
+    <nd ref="185" />
+    <nd ref="188" />
+    <nd ref="191" />
+    <nd ref="194" />
+    <nd ref="197" />
+    <nd ref="200" />
+    <nd ref="203" />
+    <nd ref="206" />
+    <nd ref="209" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-890" action="modify">
+    <nd ref="209" />
+    <nd ref="212" />
+    <nd ref="215" />
+    <nd ref="218" />
+    <nd ref="221" />
+    <nd ref="224" />
+    <nd ref="227" />
+    <nd ref="230" />
+    <nd ref="233" />
+    <nd ref="236" />
+    <nd ref="239" />
+    <nd ref="242" />
+    <nd ref="245" />
+    <nd ref="248" />
+    <nd ref="251" />
+    <nd ref="254" />
+    <nd ref="257" />
+    <nd ref="260" />
+    <nd ref="263" />
+    <nd ref="266" />
+    <nd ref="269" />
+    <nd ref="272" />
+    <nd ref="275" />
+    <nd ref="278" />
+    <nd ref="281" />
+    <nd ref="284" />
+    <nd ref="287" />
+    <nd ref="290" />
+    <nd ref="293" />
+    <nd ref="296" />
+    <nd ref="299" />
+    <nd ref="302" />
+    <nd ref="305" />
+    <nd ref="308" />
+    <nd ref="311" />
+    <nd ref="314" />
+    <nd ref="317" />
+    <nd ref="320" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-892" action="modify">
+    <nd ref="445" />
+    <nd ref="448" />
+    <nd ref="451" />
+    <nd ref="454" />
+    <nd ref="457" />
+    <nd ref="460" />
+    <nd ref="463" />
+    <nd ref="466" />
+    <nd ref="469" />
+    <nd ref="472" />
+    <nd ref="475" />
+    <nd ref="26" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-893" action="modify">
+    <nd ref="392" />
+    <nd ref="395" />
+    <nd ref="398" />
+    <nd ref="401" />
+    <nd ref="404" />
+    <nd ref="407" />
+    <nd ref="410" />
+    <nd ref="413" />
+    <nd ref="416" />
+    <nd ref="419" />
+    <nd ref="422" />
+    <nd ref="425" />
+    <nd ref="431" />
+    <nd ref="434" />
+    <nd ref="437" />
+    <nd ref="440" />
+    <nd ref="443" />
+    <nd ref="446" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-894" action="modify">
+    <nd ref="446" />
+    <nd ref="449" />
+    <nd ref="452" />
+    <nd ref="455" />
+    <nd ref="458" />
+    <nd ref="461" />
+    <nd ref="464" />
+    <nd ref="467" />
+    <nd ref="470" />
+    <nd ref="473" />
+    <nd ref="476" />
+    <nd ref="27" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="-1040" action="modify">
+    <nd ref="391" />
+    <nd ref="394" />
+    <nd ref="397" />
+    <nd ref="400" />
+    <nd ref="403" />
+    <nd ref="406" />
+    <nd ref="409" />
+    <nd ref="412" />
+    <nd ref="415" />
+    <nd ref="418" />
+    <nd ref="421" />
+    <nd ref="424" />
+    <nd ref="427" />
+    <nd ref="430" />
+    <nd ref="433" />
+    <nd ref="436" />
+    <nd ref="439" />
+    <nd ref="442" />
+    <nd ref="445" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="1" action="modify" version="1">
+    <nd ref="26" />
+    <nd ref="29" />
+    <nd ref="32" />
+    <nd ref="35" />
+    <nd ref="38" />
+    <nd ref="41" />
+    <nd ref="44" />
+    <nd ref="47" />
+    <nd ref="50" />
+    <nd ref="53" />
+    <nd ref="56" />
+    <nd ref="59" />
+    <nd ref="62" />
+    <nd ref="65" />
+    <nd ref="68" />
+    <nd ref="71" />
+    <nd ref="74" />
+    <nd ref="77" />
+    <nd ref="80" />
+    <nd ref="83" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="2" action="modify" version="1">
+    <nd ref="27" />
+    <nd ref="30" />
+    <nd ref="33" />
+    <nd ref="36" />
+    <nd ref="39" />
+    <nd ref="42" />
+    <nd ref="45" />
+    <nd ref="48" />
+    <nd ref="51" />
+    <nd ref="54" />
+    <nd ref="57" />
+    <nd ref="60" />
+    <nd ref="63" />
+    <nd ref="66" />
+    <nd ref="69" />
+    <nd ref="72" />
+    <nd ref="75" />
+    <nd ref="78" />
+    <nd ref="81" />
+    <nd ref="84" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="86" action="modify" version="1">
+    <nd ref="83" />
+    <nd ref="90" />
+    <nd ref="93" />
+    <nd ref="96" />
+    <nd ref="99" />
+    <nd ref="102" />
+    <nd ref="105" />
+    <nd ref="108" />
+    <nd ref="111" />
+    <nd ref="114" />
+    <nd ref="117" />
+    <nd ref="120" />
+    <nd ref="123" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="87" action="modify" version="1">
+    <nd ref="84" />
+    <nd ref="91" />
+    <nd ref="94" />
+    <nd ref="97" />
+    <nd ref="100" />
+    <nd ref="103" />
+    <nd ref="106" />
+    <nd ref="109" />
+    <nd ref="112" />
+    <nd ref="115" />
+    <nd ref="118" />
+    <nd ref="121" />
+    <nd ref="124" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="126" action="modify" version="1">
+    <nd ref="316" />
+    <nd ref="319" />
+    <nd ref="322" />
+    <nd ref="325" />
+    <nd ref="328" />
+    <nd ref="331" />
+    <nd ref="334" />
+    <nd ref="337" />
+    <nd ref="340" />
+    <nd ref="343" />
+    <nd ref="346" />
+    <nd ref="349" />
+    <nd ref="352" />
+    <nd ref="355" />
+    <nd ref="358" />
+    <nd ref="361" />
+    <nd ref="364" />
+    <nd ref="367" />
+    <nd ref="370" />
+    <nd ref="373" />
+    <nd ref="376" />
+    <nd ref="379" />
+    <nd ref="382" />
+    <nd ref="385" />
+    <nd ref="388" />
+    <nd ref="391" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <way id="127" action="modify" version="1">
+    <nd ref="320" />
+    <nd ref="323" />
+    <nd ref="326" />
+    <nd ref="329" />
+    <nd ref="332" />
+    <nd ref="335" />
+    <nd ref="338" />
+    <nd ref="341" />
+    <nd ref="344" />
+    <nd ref="347" />
+    <nd ref="350" />
+    <nd ref="353" />
+    <nd ref="356" />
+    <nd ref="359" />
+    <nd ref="362" />
+    <nd ref="365" />
+    <nd ref="368" />
+    <nd ref="371" />
+    <nd ref="374" />
+    <nd ref="377" />
+    <nd ref="380" />
+    <nd ref="383" />
+    <nd ref="386" />
+    <nd ref="389" />
+    <nd ref="392" />
+    <tag k="subtype" v="solid" />
+    <tag k="type" v="line_thin" />
+  </way>
+  <relation id="3" action="modify" version="1">
+    <member type="way" ref="-892" role="left" />
+    <member type="way" ref="-894" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="4" action="modify" version="1">
+    <member type="way" ref="1" role="left" />
+    <member type="way" ref="2" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="89" action="modify" version="1">
+    <member type="way" ref="86" role="left" />
+    <member type="way" ref="87" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="129" action="modify" version="1">
+    <member type="way" ref="-883" role="left" />
+    <member type="way" ref="-885" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="165" action="modify" version="1">
+    <member type="way" ref="-884" role="left" />
+    <member type="way" ref="-890" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="166" action="modify" version="1">
+    <member type="way" ref="126" role="left" />
+    <member type="way" ref="127" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+  <relation id="167" action="modify" version="1">
+    <member type="way" ref="-1040" role="left" />
+    <member type="way" ref="-893" role="right" />
+    <tag k="location" v="urban" />
+    <tag k="speed_limit" v="3" />
+    <tag k="subtype" v="road" />
+    <tag k="type" v="lanelet" />
+  </relation>
+</osm>

@@ -1,0 +1,13 @@
+ #ifndef __RadarObstacleList__idl__
+#define __RadarObstacleList__idl__
+#include "RadarObstacle.idl"
+#include "Header.idl"
+module ros2_interface{
+ module msg{
+  struct RadarObstacleList{
+    ros2_interface::msg::Header   _header;
+    sequence<ros2_interface::msg::RadarObstacle> _radar_obstacle;
+  };
+ };
+}; 
+#endif

@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/PredictionObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/ObstacleIntent.idl"
+#include "ros2_interface/msg/ObstacleInteractiveTag.idl"
+#include "ros2_interface/msg/ObstaclePriority.idl"
+#include "ros2_interface/msg/PerceptionObstacle.idl"
+#include "ros2_interface/msg/TrajectoryInPrediction.idl"
+
+module ros2_interface {
+  module msg {
+    struct PredictionObstacle {
+      @verbatim (language="comment", text=
+        "perception info of obstacle")
+      ros2_interface::msg::PerceptionObstacle perception_obstacle;
+
+      @verbatim (language="comment", text=
+        "GPS time in seconds")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        "the length of the time for this prediction (e.g. 10s)")
+      double predicted_period;
+
+      @verbatim (language="comment", text=
+        "can have multiple trajectories per obstacle")
+      sequence<ros2_interface::msg::TrajectoryInPrediction> trajectory;
+
+      @verbatim (language="comment", text=
+        "估计障碍物的意图        0-UNKNOWN, 1-STOP, 2-STATIONARY, 3-移动 MOVING, 4-HANGE_LANE, 5-LOW_ACCELERATION, 6-HIGH_ACCELERATION, 7-LOW_DECELERATION, 8-HIGH_DECELERATION,")
+      ros2_interface::msg::ObstacleIntent intent;
+
+      @verbatim (language="comment", text=
+        "障碍物优先级               1-CAUTION, 2-NORMAL, 3-IGNORE")
+      ros2_interface::msg::ObstaclePriority priority;
+
+      ros2_interface::msg::ObstacleInteractiveTag interactive_tag;
+
+      @verbatim (language="comment", text=
+        "is obstacle static (default = false)")
+      boolean is_static;
+    };
+  };
+};

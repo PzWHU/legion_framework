@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/Quaternion.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct Quaternion {
+      @verbatim (language="comment", text=
+        "四维空间x")
+      double qx;
+
+      @verbatim (language="comment", text=
+        "四维空间y")
+      double qy;
+
+      @verbatim (language="comment", text=
+        "四维空间z")
+      double qz;
+
+      @verbatim (language="comment", text=
+        "四维空间w")
+      double qw;
+    };
+  };
+};

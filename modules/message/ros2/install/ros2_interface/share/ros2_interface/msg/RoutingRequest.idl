@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/RoutingRequest.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/KeyPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct RoutingRequest {
+      @verbatim (language="comment", text=
+        "timestamp is included in header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "发起请求的来源名称")
+      string request_source;
+
+      @verbatim (language="comment", text=
+        "REQUEST_TYPE=0//无效 REQUEST_TYPE=1//正常路由 REQUEST_TYPE=2//泊车路由")
+      int8 request_type;
+
+      @verbatim (language="comment", text=
+        "关键点数量")
+      int16 num_of_kp;
+
+      @verbatim (language="comment", text=
+        "关键点列表，第一个为起点，最后一个为终点，中间为途经点")
+      sequence<ros2_interface::msg::KeyPoint> key_point_list;
+    };
+  };
+};

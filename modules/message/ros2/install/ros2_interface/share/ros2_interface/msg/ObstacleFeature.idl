@@ -1,0 +1,101 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/ObstacleFeature.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/ObstaclePriority.idl"
+#include "ros2_interface/msg/Point3D.idl"
+#include "ros2_interface/msg/PredictionTrajectoryPoint.idl"
+#include "ros2_interface/msg/TrajectoryInPrediction.idl"
+#include "ros2_interface/msg/TrajectoryPointInPrediction.idl"
+
+module ros2_interface {
+  module msg {
+    struct ObstacleFeature {
+      @verbatim (language="comment", text=
+        "Obstacle ID")
+      int32 obstacle_id;
+
+      @verbatim (language="comment", text=
+        "障碍物边框点列")
+      ros2_interface::msg::Point3D polygon_point;
+
+      ros2_interface::msg::Point3D position;
+
+      ros2_interface::msg::Point3D front_position;
+
+      ros2_interface::msg::Point3D velocity;
+
+      @verbatim (language="comment", text=
+        "from perception")
+      ros2_interface::msg::Point3D raw_velocity;
+
+      ros2_interface::msg::Point3D acceleration;
+
+      double velocity_heading;
+
+      double speed;
+
+      double acc;
+
+      double theta;
+
+      double length;
+
+      double width;
+
+      double height;
+
+      double tracking_time;
+
+      double timestamp;
+
+      ros2_interface::msg::Point3D t_position;
+
+      @unit (value="deprecated = true")
+      ros2_interface::msg::Point3D t_velocity;
+
+      @unit (value="deprecated = true")
+      double t_velocity_heading;
+
+      @unit (value="deprecated = true")
+      double t_speed;
+
+      @unit (value="deprecated = true")
+      ros2_interface::msg::Point3D t_acceleration;
+
+      @unit (value="deprecated = true")
+      double t_acc;
+
+      @unit (value="deprecated = false")
+      boolean is_still;
+
+      @verbatim (language="comment", text=
+        "感知到的障碍物类型         0-UNKNOWN, 1-UNKNOWN_MOVABLE, 2-UNKNOWN_UNMOVABLE, 3-PEDESTRIAN, 4-BICYCLE,     5-VEHICLE")
+      int32 type;
+
+      double label_update_time_delta;
+
+      @verbatim (language="comment", text=
+        "CAUTION = 1; NORMAL = 2; IGNORE = 3;")
+      ros2_interface::msg::ObstaclePriority priority;
+
+      boolean is_near_junction;
+
+      @verbatim (language="comment", text=
+        "Obstacle ground-truth labels:")
+      sequence<ros2_interface::msg::PredictionTrajectoryPoint> future_trajectory_points;
+
+      @verbatim (language="comment", text=
+        "Obstacle short-term predicted trajectory points")
+      sequence<ros2_interface::msg::TrajectoryPointInPrediction> short_term_predicted_trajectory_points;
+
+      @verbatim (language="comment", text=
+        "Obstacle predicted trajectories")
+      sequence<ros2_interface::msg::TrajectoryInPrediction> predicted_trajectory;
+
+      @verbatim (language="comment", text=
+        "ADC trajectory at the same frame")
+      sequence<ros2_interface::msg::TrajectoryPointInPrediction> adc_trajectory_point;
+    };
+  };
+};

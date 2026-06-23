@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/HMIDiagnosticStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct HMIDiagnosticStatus {
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "// 诊断状态")
+      int32 level;
+
+      @verbatim (language="comment", text=
+        "//测试/组件报告的描述")
+      string name;
+
+      @verbatim (language="comment", text=
+        "// 状态描述")
+      string message;
+
+      @verbatim (language="comment", text=
+        "// 硬件的唯一描述")
+      string hardware_id;
+    };
+  };
+};

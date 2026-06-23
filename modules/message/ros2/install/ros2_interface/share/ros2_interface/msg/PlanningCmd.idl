@@ -1,0 +1,73 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/PlanningCmd.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct PlanningCmd {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "转向灯 TURN_INACTIVE_SIGNAL:0 TURN_LEFT_SIGNAL:1 TURN_RIGHT_SIGNAL:2 TURN_INVALID_SIGNAL:3")
+      int32 turn_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 high_beam_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 low_beam_ctrl;
+
+      @verbatim (language="comment", text=
+        "0 关闭 1 开启 2 不响应")
+      int32 horn_ctrl;
+
+      @verbatim (language="comment", text=
+        "前雨刮器 0 关闭 1 开启")
+      int32 front_wiper_ctrl;
+
+      @verbatim (language="comment", text=
+        "后雨刮器 0 关闭 1 开启")
+      int32 rear_wiper_ctrl;
+
+      @verbatim (language="comment", text=
+        "位置灯 0 关闭 1 开启")
+      int32 position_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "前雾灯 0 关闭 1 开启")
+      int32 front_fog_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "后雾灯 0 关闭 1 开启")
+      int32 rear_fog_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "刹车灯 一般情况自动控制 0 关闭 1 开启")
+      int32 brake_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "警报灯 双闪 0 关闭 1 开启")
+      int32 alarm_lamp_ctrl;
+
+      @verbatim (language="comment", text=
+        "左前门控制 0 关闭 1 开启")
+      int32 lf_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "右前门控制 0 关闭 1 开启")
+      int32 rf_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "左后门控制 0 关闭 1 开启")
+      int32 lr_door_ctrl;
+
+      @verbatim (language="comment", text=
+        "右后门控制 0 关闭 1 开启")
+      int32 rr_door_ctrl;
+    };
+  };
+};

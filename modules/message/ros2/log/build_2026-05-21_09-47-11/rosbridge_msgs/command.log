@@ -1,0 +1,6 @@
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs': /usr/bin/cmake /home/oem/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/oem/legion_framework/modules/message/ros2/install/rosbridge_msgs
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': /usr/bin/cmake /home/oem/legion_framework/modules/message/ros2/src/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/oem/legion_framework/modules/message/ros2/install/rosbridge_msgs
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs': /usr/bin/cmake --build /home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j16 -l16
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': /usr/bin/cmake --build /home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs -- -j16 -l16
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs': /usr/bin/cmake --install /home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs' returned '0': /usr/bin/cmake --install /home/oem/legion_framework/modules/message/ros2/build/rosbridge_msgs

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_interface__py",
+		"source" : "/home/oem/legion_framework/modules/message/ros2/build/ros2_interface/ros2_interface__py"
+	}
+}

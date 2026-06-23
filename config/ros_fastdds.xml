@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+
+    <!-- ============================================== -->
+    <!-- 传输描述符配置：共享内存 + UDP -->
+    <!-- ============================================== -->
+    <transport_descriptors>
+      
+      <!-- 共享内存传输 -->
+      <transport_descriptor>
+        <transport_id>shm_transport</transport_id>
+        <type>SHM</type>
+        <maxMessageSize>65500</maxMessageSize>
+        <!-- 共享内存段大小，300MB -->
+        <segment_size>314572800</segment_size>
+        <!-- 共享内存端口队列容量 -->
+        <port_queue_capacity>4096</port_queue_capacity>
+        <!-- 健康检查超时（毫秒）- ROS Galactic 使用 ms 单位 -->
+        <healthy_check_timeout_ms>300</healthy_check_timeout_ms>
+      </transport_descriptor>
+
+      <!-- UDP 网络传输（绑定特定 IP） -->
+      <transport_descriptor>
+        <transport_id>udp_transport</transport_id>
+        <type>UDPv4</type>
+        <maxMessageSize>65500</maxMessageSize>
+        <maxInitialPeersRange>500</maxInitialPeersRange>
+        <interfaceWhiteList>
+          <address>192.168.1.101</address>
+          <address>192.168.1.102</address>
+          <address>192.168.1.103</address>
+          <address>192.168.1.136</address>
+        </interfaceWhiteList>
+      </transport_descriptor>
+
+    </transport_descriptors>
+
+    <!-- ============================================== -->
+    <!-- Participant 配置：同时使用 SHM + UDP -->
+    <!-- ============================================== -->
+    <participant profile_name="fastdds_participant">
+      <rtps>
+        <!-- 仅启用 UDP 传输 -->
+        <userTransports>
+          <transport_id>shm_transport</transport_id>
+          <transport_id>udp_transport</transport_id>
+        </userTransports>
+        
+        <!-- 必须禁用内置传输，否则白名单不生效 -->
+        <useBuiltinTransports>false</useBuiltinTransports>
+        
+        <builtin>
+          <discovery_config>
+            <discoveryProtocol>SIMPLE</discoveryProtocol>
+            <leaseDuration>
+              <sec>30</sec>
+              <nanosec>0</nanosec>
+            </leaseDuration>
+            <leaseAnnouncement>
+              <sec>5</sec>
+              <nanosec>0</nanosec>
+            </leaseAnnouncement>
+          </discovery_config>
+        </builtin>
+      </rtps>
+    </participant>
+
+    <!-- ============================================== -->
+    <!-- 注意：QoS配置已在代码中设置，此处仅配置传输层 -->
+    <!-- 如果需要在此处配置QoS，请使用非default profile -->
+    <!-- ============================================== -->
+
+</profiles>

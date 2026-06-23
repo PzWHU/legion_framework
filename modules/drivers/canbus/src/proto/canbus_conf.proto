@@ -1,0 +1,49 @@
+syntax = "proto2";
+
+package legion.drivers;
+
+import "modules/common/base_message/message.proto";
+import "modules/common/data/vehicle_param/proto/vehicle_param.proto";
+
+message CanbusConf {
+  optional string app_name = 1;
+  optional string description = 2;
+  optional string log_file_path = 3;
+  optional int32 log_level = 4 ;
+  optional bool logging_data_enable = 5;
+  optional bool use_system_timestamp = 6;
+  optional legion.common.Message messages = 7;
+  optional double compute_canbus_command = 8;
+  optional Max_miss_tms max_miss_tms = 9;
+  optional legion.interface.VehicleParam vehicle_param = 10;
+  optional CanCard can_card = 11;
+  optional bool timer_high_performance_enable = 12 [default = false];
+  optional bool can_send_log_enable = 13 [default = false];
+  optional bool can_receive_log_enable = 14 [default = false];
+  optional bool check_control = 15 [default = false];
+  optional bool check_teleop = 16 [default = false];
+  optional VehicleConfig vehicle_config = 17;
+}
+
+message Max_miss_tms{
+  optional double max_miss_tms_teleop = 1;
+  optional double max_miss_tms_localization = 2;
+  optional double max_miss_tms_control = 3;
+  optional double max_miss_duration_tms_control = 4;
+  optional double max_miss_tms_vehicle_task = 5;
+  optional double max_miss_tms_vehicle_stop = 6;
+}
+
+message CanCard{
+  optional int32 brand = 1;
+  optional string name = 2;
+  optional int32 channel_id = 3;
+  repeated string whitelist = 4;
+}
+
+message VehicleConfig{
+  optional string name = 1;
+  optional int32 brand = 2;
+  optional double steer_angle_limit = 3;
+  optional double steering_buffer = 4;
+}

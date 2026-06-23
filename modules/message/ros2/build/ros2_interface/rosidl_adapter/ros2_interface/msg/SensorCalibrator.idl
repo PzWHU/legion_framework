@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/SensorCalibrator.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/Point3D.idl"
+
+module ros2_interface {
+  module msg {
+    struct SensorCalibrator {
+      @verbatim (language="comment", text=
+        "传感器安装位置(相对于后轴中心点)")
+      ros2_interface::msg::Point3D pose;
+
+      @verbatim (language="comment", text=
+        "传感器安装角度(车体坐标系)")
+      ros2_interface::msg::Point3D angle;
+    };
+  };
+};

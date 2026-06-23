@@ -1,0 +1,6 @@
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface': /usr/bin/cmake /home/oem/legion_framework/modules/message/ros2/src/legion/ros2_interface -DCMAKE_INSTALL_PREFIX=/home/oem/legion_framework/modules/message/ros2/install/ros2_interface
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': /usr/bin/cmake /home/oem/legion_framework/modules/message/ros2/src/legion/ros2_interface -DCMAKE_INSTALL_PREFIX=/home/oem/legion_framework/modules/message/ros2/install/ros2_interface
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface': /usr/bin/cmake --build /home/oem/legion_framework/modules/message/ros2/build/ros2_interface -- -j16 -l16
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': /usr/bin/cmake --build /home/oem/legion_framework/modules/message/ros2/build/ros2_interface -- -j16 -l16
+Invoking command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface': /usr/bin/cmake --install /home/oem/legion_framework/modules/message/ros2/build/ros2_interface
+Invoked command in '/home/oem/legion_framework/modules/message/ros2/build/ros2_interface' returned '0': /usr/bin/cmake --install /home/oem/legion_framework/modules/message/ros2/build/ros2_interface

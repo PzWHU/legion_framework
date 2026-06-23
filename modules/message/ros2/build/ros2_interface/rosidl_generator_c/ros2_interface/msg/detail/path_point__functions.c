@@ -1,0 +1,316 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from ros2_interface:msg/PathPoint.idl
+// generated code does not contain a copyright notice
+#include "ros2_interface/msg/detail/path_point__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "rcutils/allocator.h"
+
+
+bool
+ros2_interface__msg__PathPoint__init(ros2_interface__msg__PathPoint * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // x
+  // y
+  // z
+  // theta
+  // kappa
+  // s
+  // dkappa
+  // ddkappa
+  // lane_id
+  // x_derivative
+  // y_derivative
+  return true;
+}
+
+void
+ros2_interface__msg__PathPoint__fini(ros2_interface__msg__PathPoint * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // x
+  // y
+  // z
+  // theta
+  // kappa
+  // s
+  // dkappa
+  // ddkappa
+  // lane_id
+  // x_derivative
+  // y_derivative
+}
+
+bool
+ros2_interface__msg__PathPoint__are_equal(const ros2_interface__msg__PathPoint * lhs, const ros2_interface__msg__PathPoint * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // x
+  if (lhs->x != rhs->x) {
+    return false;
+  }
+  // y
+  if (lhs->y != rhs->y) {
+    return false;
+  }
+  // z
+  if (lhs->z != rhs->z) {
+    return false;
+  }
+  // theta
+  if (lhs->theta != rhs->theta) {
+    return false;
+  }
+  // kappa
+  if (lhs->kappa != rhs->kappa) {
+    return false;
+  }
+  // s
+  if (lhs->s != rhs->s) {
+    return false;
+  }
+  // dkappa
+  if (lhs->dkappa != rhs->dkappa) {
+    return false;
+  }
+  // ddkappa
+  if (lhs->ddkappa != rhs->ddkappa) {
+    return false;
+  }
+  // lane_id
+  if (lhs->lane_id != rhs->lane_id) {
+    return false;
+  }
+  // x_derivative
+  if (lhs->x_derivative != rhs->x_derivative) {
+    return false;
+  }
+  // y_derivative
+  if (lhs->y_derivative != rhs->y_derivative) {
+    return false;
+  }
+  return true;
+}
+
+bool
+ros2_interface__msg__PathPoint__copy(
+  const ros2_interface__msg__PathPoint * input,
+  ros2_interface__msg__PathPoint * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // x
+  output->x = input->x;
+  // y
+  output->y = input->y;
+  // z
+  output->z = input->z;
+  // theta
+  output->theta = input->theta;
+  // kappa
+  output->kappa = input->kappa;
+  // s
+  output->s = input->s;
+  // dkappa
+  output->dkappa = input->dkappa;
+  // ddkappa
+  output->ddkappa = input->ddkappa;
+  // lane_id
+  output->lane_id = input->lane_id;
+  // x_derivative
+  output->x_derivative = input->x_derivative;
+  // y_derivative
+  output->y_derivative = input->y_derivative;
+  return true;
+}
+
+ros2_interface__msg__PathPoint *
+ros2_interface__msg__PathPoint__create()
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ros2_interface__msg__PathPoint * msg = (ros2_interface__msg__PathPoint *)allocator.allocate(sizeof(ros2_interface__msg__PathPoint), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(ros2_interface__msg__PathPoint));
+  bool success = ros2_interface__msg__PathPoint__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+ros2_interface__msg__PathPoint__destroy(ros2_interface__msg__PathPoint * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    ros2_interface__msg__PathPoint__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+ros2_interface__msg__PathPoint__Sequence__init(ros2_interface__msg__PathPoint__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ros2_interface__msg__PathPoint * data = NULL;
+
+  if (size) {
+    data = (ros2_interface__msg__PathPoint *)allocator.zero_allocate(size, sizeof(ros2_interface__msg__PathPoint), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = ros2_interface__msg__PathPoint__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        ros2_interface__msg__PathPoint__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+ros2_interface__msg__PathPoint__Sequence__fini(ros2_interface__msg__PathPoint__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      ros2_interface__msg__PathPoint__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+ros2_interface__msg__PathPoint__Sequence *
+ros2_interface__msg__PathPoint__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ros2_interface__msg__PathPoint__Sequence * array = (ros2_interface__msg__PathPoint__Sequence *)allocator.allocate(sizeof(ros2_interface__msg__PathPoint__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = ros2_interface__msg__PathPoint__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+ros2_interface__msg__PathPoint__Sequence__destroy(ros2_interface__msg__PathPoint__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    ros2_interface__msg__PathPoint__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+ros2_interface__msg__PathPoint__Sequence__are_equal(const ros2_interface__msg__PathPoint__Sequence * lhs, const ros2_interface__msg__PathPoint__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!ros2_interface__msg__PathPoint__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+ros2_interface__msg__PathPoint__Sequence__copy(
+  const ros2_interface__msg__PathPoint__Sequence * input,
+  ros2_interface__msg__PathPoint__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(ros2_interface__msg__PathPoint);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    ros2_interface__msg__PathPoint * data =
+      (ros2_interface__msg__PathPoint *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!ros2_interface__msg__PathPoint__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          ros2_interface__msg__PathPoint__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!ros2_interface__msg__PathPoint__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}

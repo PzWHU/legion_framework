@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CycloneDDS XML 配置文件 - C 端 (192.168.1.103)
+
+  适配版本: CycloneDDS >= 0.8.0 (包括 6.1.13)
+  适用于:   ROS 2 Galactic / Humble / Iron 等
+
+  与基础模板 ros_cyclonedds.xml 的差异:
+  - Peers: 列出除本机外的所有机器 IP
+
+  共享内存说明:
+  - XML 配置中不包含 SharedMemory 子元素 (CycloneDDS 0.8.0 不支持)
+  - 共享内存由 ROS 2 RMW 层自动管理
+  - 如已安装 iceoryx，本机进程间自动使用 SHM
+  - 跨机器通信自动回退到 UDP
+
+  注意: NetworkInterfaceAddress 元素在 CycloneDDS >= 0.9.0 中已 deprecated，
+        但仍可正常工作，仅产生警告。
+-->
+<CycloneDDS xmlns="https://cdds.io/config">
+
+  <Domain Id="any">
+
+    <General>
+      <Interfaces>
+        <NetworkInterface name="eth0"/>
+      </Interfaces>
+      <MaxMessageSize>65500 B</MaxMessageSize>
+      <AllowMulticast>spdp</AllowMulticast>
+    </General>
+
+    <Discovery>
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>
+      <SPDPInterval>5 s</SPDPInterval>
+
+      <!--
+        静态对等节点地址
+        C 端 (103) 隔离：不连接任何外部 peer
+        本机进程间通信走 SHM，无需外部发现
+        跨机通信被完全切断
+      -->
+      <Peers>
+      </Peers>
+
+      <MaxAutoParticipantIndex>9</MaxAutoParticipantIndex>
+    </Discovery>
+
+    <Internal/>
+
+    <Tracing>
+      <Verbosity>warning</Verbosity>
+    </Tracing>
+
+    <Compatibility>
+      <StandardsConformance>lax</StandardsConformance>
+      <ManySocketsMode>single</ManySocketsMode>
+    </Compatibility>
+
+  </Domain>
+</CycloneDDS>

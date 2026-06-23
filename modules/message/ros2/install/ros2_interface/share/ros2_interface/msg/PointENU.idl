@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/PointENU.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct PointENU {
+      @verbatim (language="comment", text=
+        "East from the origin, in meters.")
+      double x;
+
+      @verbatim (language="comment", text=
+        "North from the origin, in meters.")
+      double y;
+
+      @verbatim (language="comment", text=
+        "Up from the WGS-84 ellipsoid, in meters.")
+      double z;
+    };
+  };
+};

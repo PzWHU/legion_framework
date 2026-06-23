@@ -1,0 +1,24 @@
+{
+  "vehicle_id": "V10000002",
+  "enable_task_upload": true,
+  "mqtt": {
+    "broker": "zhdl.asia",
+    "port": 1883,
+    "username": "lx",
+    "password": "zhdltest"
+  },
+  "websocket": {
+    "host": "0.0.0.0",
+    "port": 8765
+  },
+  "command_mapping_file": "command_mapping.json",
+  "test_mode": 1,
+  "debug_mode": 1,
+  "debug_settings": {
+    "heartbeat": false,
+    "node_discovery": false,
+    "vehicle_info": true,
+    "async_command": true
+  },
+  "map_dir": "mapdir"
+}

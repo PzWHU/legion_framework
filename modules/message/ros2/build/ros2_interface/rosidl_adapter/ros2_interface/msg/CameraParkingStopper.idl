@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/CameraParkingStopper.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/BBox2D.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct CameraParkingStopper {
+      @verbatim (language="comment", text=
+        "timestamp is  included in header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "限位器图像框")
+      ros2_interface::msg::BBox2D bbox2d;
+    };
+  };
+};

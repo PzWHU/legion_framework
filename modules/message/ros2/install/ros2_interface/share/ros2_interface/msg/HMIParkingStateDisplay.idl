@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/HMIParkingStateDisplay.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct HMIParkingStateDisplay {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "0：无效 1：垂直泊车 2：水平泊车 3：斜方泊车")
+      int32 parking_type;
+
+      @verbatim (language="comment", text=
+        "揉库次数")
+      int32 moves_counter;
+
+      @verbatim (language="comment", text=
+        "剩余距离")
+      double remian_distance;
+
+      @verbatim (language="comment", text=
+        "详细信息")
+      int32 display_info;
+
+      @verbatim (language="comment", text=
+        "距离最近障碍物距离")
+      double distance_to_leader_obj;
+
+      int32 state;
+    };
+  };
+};

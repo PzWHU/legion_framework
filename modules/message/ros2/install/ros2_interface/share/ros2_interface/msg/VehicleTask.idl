@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/VehicleTask.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module ros2_interface {
+  module msg {
+    struct VehicleTask {
+      @verbatim (language="comment", text=
+        "消息头")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "清扫功能控制  0 关闭 1 开启")
+      int32 clean_up_ctrl;
+
+      @verbatim (language="comment", text=
+        "洒水功能控制  0 关闭 1 开启")
+      int32 watering_ctrl;
+
+      @verbatim (language="comment", text=
+        "加水开关控制  0 关闭 1 开启")
+      int32 water_add_ctrl;
+
+      @verbatim (language="comment", text=
+        "舱盖解锁开关控制 0 关闭 1 开启")
+      int32 hatch_unlock_ctrl;
+
+      @verbatim (language="comment", text=
+        "灯带开关控制 0 关闭 1 开启")
+      int32 decorative_light_ctrl;
+    };
+  };
+};

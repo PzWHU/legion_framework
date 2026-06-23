@@ -1,0 +1,6 @@
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/edit_cache.dir
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/test.dir
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/legion_bridge.dir
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/rebuild_cache.dir
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/legion_bridge_uninstall.dir
+/home/beacon/legion_framework/modules/legion_bridge/build/CMakeFiles/uninstall.dir

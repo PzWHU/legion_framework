@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/GuideRoad.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/CurvatureInfo.idl"
+
+module ros2_interface {
+  module msg {
+    struct GuideRoad {
+      @verbatim (language="comment", text=
+        "道路的id")
+      int64 road_id;
+
+      @verbatim (language="comment", text=
+        "道路的类型: 0：未知或一般道路  1：环岛 2：交叉路口 3：主路 4：辅路")
+      int8 road_type;
+
+      @verbatim (language="comment", text=
+        "规划路线上道路的转向信息 1：左转 2：直行 3：右转")
+      int8 turn_type;
+
+      @verbatim (language="comment", text=
+        "道路的平均曲率")
+      double avg_curvature;
+
+      @verbatim (language="comment", text=
+        "道路中心线上点(曲率)数量")
+      int32 curvature_size;
+
+      @verbatim (language="comment", text=
+        "道路曲率信息数组")
+      sequence<ros2_interface::msg::CurvatureInfo> curvature;
+    };
+  };
+};

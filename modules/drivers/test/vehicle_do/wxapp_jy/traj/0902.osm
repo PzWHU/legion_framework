@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" upload="false" generator="nobody" origin_lat="30.444914811173376" origin_lon="114.08191418260574">
+  <node id="4" action="modify" visible="true" version="1" lat="30.444860767374383" lon="114.08199836741105"/>
+  <node id="5" action="modify" visible="true" version="1" lat="30.444868589908037" lon="114.08199319519375"/>
+  <way id="1" action="modify" visible="true" version="1">
+    <nd ref="4"/>
+  </way>
+  <way id="2" action="modify" visible="true" version="1">
+    <nd ref="5"/>
+  </way>
+  <relation id="3" action="modify" version="1">
+    <member type="way" ref="1" role="left"/>
+    <member type="way" ref="2" role="right"/>
+    <tag k="location" v="urban"/>
+    <tag k="speed_limit" v="5"/>
+    <tag k="subtype" v="road"/>
+    <tag k="type" v="lanelet"/>
+  </relation>
+</osm>

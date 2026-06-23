@@ -1,0 +1,76 @@
+{
+    "had_remote_state_machine": [
+        {
+            "StateName": "Start",
+            "Transition": [
+                {
+                    "Key": "started",
+                    "Target": "Init"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "Init",
+            "Transition": [
+                {
+                    "Key": "had_remote_switching",
+                    "Target": "HadRemoteSwitching"
+                },
+                {
+                    "Key": "remote_had_switching",
+                    "Target": "RemoteHadSwitching"
+                },
+                {
+                    "Key": "remote_take_over",
+                    "Target": "RemoteTakeOver"
+                },
+                {
+                    "Key": "had_take_over",
+                    "Target": "HadTakeOver"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "HadRemoteSwitching",
+            "Transition": [
+                {
+                    "Key": "remote_take_over",
+                    "Target": "RemoteTakeOver"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "RemoteHadSwitching",
+            "Transition": [
+                {
+                    "Key": "had_take_over",
+                    "Target": "HadTakeOver"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "HadTakeOver",
+            "Transition": [
+                {
+                    "Key": "had_remote_switching",
+                    "Target": "HadRemoteSwitching"
+                }
+            ],
+            "Parent": "null"
+        },
+        {
+            "StateName": "RemoteTakeOver",
+            "Transition": [
+                {
+                    "Key": "remote_had_switching",
+                    "Target": "RemoteHadSwitching"
+                }
+            ],
+            "Parent": "null"
+        }
+    ]
+}

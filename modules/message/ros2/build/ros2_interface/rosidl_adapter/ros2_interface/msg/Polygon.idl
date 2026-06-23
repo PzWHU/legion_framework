@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/Polygon.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/Point3D.idl"
+
+module ros2_interface {
+  module msg {
+    struct Polygon {
+      sequence<ros2_interface::msg::Point3D> points;
+    };
+  };
+};

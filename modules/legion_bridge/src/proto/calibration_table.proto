@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package legion.legion_bridge;
+
+message CalibrationTable{
+    repeated CalibrationInfo calibration_table = 1;
+}
+
+message CalibrationInfo{
+    optional double speed = 1;
+    optional double brake = 2;
+}

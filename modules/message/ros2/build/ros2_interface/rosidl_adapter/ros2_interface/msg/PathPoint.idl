@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/PathPoint.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct PathPoint {
+      @verbatim (language="comment", text=
+        "coordinates x")
+      double x;
+
+      @verbatim (language="comment", text=
+        "coordinates y")
+      double y;
+
+      @verbatim (language="comment", text=
+        "coordinates z")
+      double z;
+
+      @verbatim (language="comment", text=
+        "direction on the x-y plane")
+      double theta;
+
+      @verbatim (language="comment", text=
+        "curvature on the x-y planning")
+      double kappa;
+
+      @verbatim (language="comment", text=
+        "accumulated distance from beginning of the path")
+      double s;
+
+      @verbatim (language="comment", text=
+        "derivative of kappa w.r.t s.")
+      double dkappa;
+
+      @verbatim (language="comment", text=
+        "derivative of derivative of kappa w.r.t s.")
+      double ddkappa;
+
+      @verbatim (language="comment", text=
+        "The lane ID where the path point is on")
+      double lane_id;
+
+      @verbatim (language="comment", text=
+        "derivative of x w.r.t parametric parameter t in CosThetareferenceline")
+      double x_derivative;
+
+      @verbatim (language="comment", text=
+        "derivative of y w.r.t parametric parameter t in CosThetareferenceline")
+      double y_derivative;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/PointBasic.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_interface {
+  module msg {
+    struct PointBasic {
+      @verbatim (language="comment", text=
+        "位置坐标x")
+      double x;
+
+      @verbatim (language="comment", text=
+        "位置坐标y")
+      double y;
+
+      @verbatim (language="comment", text=
+        "位置坐标z")
+      double z;
+
+      @verbatim (language="comment", text=
+        "heading(rad)")
+      double theta;
+    };
+  };
+};

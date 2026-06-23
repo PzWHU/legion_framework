@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_interface/msg/LaneInfoExtend.msg
+// generated code does not contain a copyright notice
+
+#include "ros2_interface/msg/LanePoint.idl"
+
+module ros2_interface {
+  module msg {
+    struct LaneInfoExtend {
+      @verbatim (language="comment", text=
+        "道路优先级")
+      int8 priority;
+
+      @verbatim (language="comment", text=
+        "道路全局id（从左至右，从0开始）")
+      int64 global_id;
+
+      @verbatim (language="comment", text=
+        "所有的前继车道id数组")
+      sequence<int64> predecessor_ids;
+
+      @verbatim (language="comment", text=
+        "所有的后续车道id数组")
+      sequence<int64> successor_ids;
+
+      @verbatim (language="comment", text=
+        "左边相邻车道id")
+      int64 left_neighbor_id;
+
+      @verbatim (language="comment", text=
+        "右边相邻车道id")
+      int64 right_neighbor_id;
+
+      @verbatim (language="comment", text=
+        "类型（预留）")
+      int8 type;
+
+      @verbatim (language="comment", text=
+        "道路参考线（z）")
+      sequence<ros2_interface::msg::LanePoint> lane_points;
+    };
+  };
+};

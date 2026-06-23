@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+
+    <!-- ============================================== -->
+    <!-- Participant 配置 -->
+    <!-- Discovery Server 通过 ROS_DISCOVERY_SERVER 环境变量配置 -->
+    <!-- ============================================== -->
+    <participant profile_name="fastdds_participant">
+      <rtps>
+        <builtin>
+          <discovery_config>
+            <leaseDuration>
+              <sec>2147483647</sec>
+              <nanosec>0</nanosec>
+            </leaseDuration>
+            <leaseAnnouncement>
+              <sec>1</sec>
+              <nanosec>0</nanosec>
+            </leaseAnnouncement>
+          </discovery_config>
+        </builtin>
+      </rtps>
+    </participant>
+
+</profiles>
