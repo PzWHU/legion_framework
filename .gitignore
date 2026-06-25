@@ -1,0 +1,10 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ROS2 build / install artifacts
+modules/message/ros2/install/
+modules/message/ros2/build/
+modules/message/ros2/log/
