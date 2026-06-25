@@ -1,0 +1,14 @@
+{
+    "app_name": "vla_gateway",
+    "process_period_ms": 100,
+    "history_duration_s": 2.0,
+    "history_interval_s": 0.5,
+    "prediction_horizon_s": 3.0,
+    "max_obstacles": 8,
+    "mqtt_broker": "192.168.0.2",
+    "mqtt_port": 1883,
+    "mqtt_topic": "vla/gateway/frame_data",
+    "mqtt_response_topic": "vla/gateway/result",
+    "guide_info_topic": "/routing/GuideInfo",
+    "mqtt_client_id": "vla_gateway_001"
+}

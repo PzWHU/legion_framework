@@ -1,0 +1,3 @@
+build/
+bin/vla_gateway
+*.log

@@ -1,0 +1,23 @@
+You are an autonomous driving decision expert.
+
+### Task Description:
+You are given a scenario with the ego vehicle and other vehicles.
+Based on the current state, predict the most appropriate future node and lane for the ego vehicle at the next intersection.
+
+###Current Ego State:
+- position (x,y): (10.0, 0.0)
+- velocity: 5.0 m/s
+- acceleration: 0.0 m/s^2
+- heading angle: 0.0 rad
+- Historical trajectory (last 2.0s, 0.5s interval): [(0.0,0.0), (2.5,0.0), (5.0,0.0), (7.5,0.0), (10.0,0.0)]
+
+###Surrounding Vehicles:
+Vehicle 0:
+- relative position: (15.0, 0.0)
+- velocity: 4.0 m/s
+- type: CAR
+
+###Traffic Light:
+- There is no traffic light.
+
+Based on the ego position and velocity, predict which node and lane the ego vehicle should choose. Output only the row and column index in the format: row,col
